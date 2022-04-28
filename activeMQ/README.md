@@ -2,7 +2,7 @@
 
 
 
-## :a: HelloWorld
+## :a: HelloWorld example from [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 - [ ] Create the maven `helloworld` project
 
@@ -27,12 +27,23 @@ mvn package
 java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App 
 ```
 
+## :b: HellowWorldScala example from [Hello World Scala in the Cloud With Spring](https://dzone.com/articles/spring-scala-cloud-psh)
+
+- [ ] Create the maven `helloworldScala` project
+
+```
+mvn archetype:generate \
+    -DgroupId=com.valiha.app \
+    -DartifactId=helloworldscala \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DarchetypeVersion=1.4 \
+    -DinteractiveMode=false
+```
+
 
 # References
 
-- [ ] [Hello World Scala in the Cloud With Spring](https://dzone.com/articles/spring-scala-cloud-psh)
 - [ ] [ActiveMQ Performance Testing](https://www.javacodegeeks.com/2018/09/activemq-performance-testing.html)
-- [ ] [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 
 
