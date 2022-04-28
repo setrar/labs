@@ -34,7 +34,7 @@ java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App
 ```
 mvn archetype:generate \
     -DgroupId=com.valiha.app \
-    -DartifactId=helloworldScala \
+    -DartifactId=helloworldscala \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DarchetypeVersion=1.4 \
     -DinteractiveMode=false
