@@ -4,6 +4,8 @@
 
 ## :a: HelloWorld
 
+- [ ] Create the maven `helloworld` project
+
 ```
 mvn archetype:generate \
     -DgroupId=com.valiha.app \
@@ -11,6 +13,18 @@ mvn archetype:generate \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DarchetypeVersion=1.4 \
     -DinteractiveMode=false
+```
+
+- [ ] Create the java package (along with compiling)
+
+```
+mvn package
+```
+
+- [ ] Run the app
+
+```
+java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App 
 ```
 
 
