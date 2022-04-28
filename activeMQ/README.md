@@ -40,10 +40,20 @@ mvn archetype:generate \
     -DinteractiveMode=false
 ```
 
+```
+mvn spring-boot:run
+```
+
+```
+docker run --name some-mongo --detach mongo
+```
+
 
 # References
 
 - [ ] [ActiveMQ Performance Testing](https://www.javacodegeeks.com/2018/09/activemq-performance-testing.html)
+- [ ] [REST with Spring Tutorial](https://www.baeldung.com/rest-with-spring-series)
+- [ ] [Spring MVC and Scala for Platform.sh](https://github.com/platformsh-examples/scala)
 
 
 
