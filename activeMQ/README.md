@@ -54,6 +54,7 @@ docker run --name some-mongo --detach mongo
 - [ ] [ActiveMQ Performance Testing](https://www.javacodegeeks.com/2018/09/activemq-performance-testing.html)
 - [ ] [REST with Spring Tutorial](https://www.baeldung.com/rest-with-spring-series)
 - [ ] [Spring MVC and Scala for Platform.sh](https://github.com/platformsh-examples/scala)
+- [ ] [Create an ActiveMQ image and push it to your own docker hub account !](https://medium.com/@bilal.asif.97/create-an-activemq-image-and-push-it-to-your-own-docker-hub-account-516a05eba10a)
 
 
 
