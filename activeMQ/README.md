@@ -58,5 +58,15 @@ docker run --name some-mongo --detach mongo
 
 - [ ] [Version :five: Getting Started](https://activemq.apache.org/version-5-getting-started.html)
 
+```
+ netstat -an|grep 61616
+```
+> Return
+```
+  TCP    0.0.0.0:61616          0.0.0.0:0              LISTENING
+  TCP    [::]:61616             [::]:0                 LISTENING
+  TCP    [::1]:61616            [::]:0                 LISTENING
+```
+
 
 
