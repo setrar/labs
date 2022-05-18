@@ -56,5 +56,7 @@ docker run --name some-mongo --detach mongo
 - [ ] [Spring MVC and Scala for Platform.sh](https://github.com/platformsh-examples/scala)
 - [ ] [Create an ActiveMQ image and push it to your own docker hub account !](https://medium.com/@bilal.asif.97/create-an-activemq-image-and-push-it-to-your-own-docker-hub-account-516a05eba10a)
 
+- [ ] [Version :five: Getting Started](https://activemq.apache.org/version-5-getting-started.html)
+
 
 
