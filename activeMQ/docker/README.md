@@ -12,6 +12,13 @@ docker build . --tag temp-activemq:5.16.0 
 docker container run --name activemq --publish 8161:8161 --publish 61616:61616 --detach temp-activemq:5.16.0 
 ```
 
+- [ ] Connect
+
+http:://localhost:8161/admin/
+
+User: `admin`
+Pwd: `admin`
+
 # References
 
 - [ ] [freekode/docker-activemq](https://github.com/freekode/docker-activemq)
