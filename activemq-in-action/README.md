@@ -14,5 +14,7 @@ mvn archetype:generate \
     -DinteractiveMode=false
 ```
 
-https://mvnrepository.com/artifact/javax.jms/javax.jms-api 
-https://mvnrepository.com/artifact/org.apache.activemq/activemq-all/5.16.2 
+| # | Maven Libraries |
+|---|-----------------|
+| [javax.jms/javax.jms-api](https://mvnrepository.com/artifact/javax.jms/javax.jms-api) |
+| [org.apache.activemq/activemq-all/5.16.2](https://mvnrepository.com/artifact/org.apache.activemq/activemq-all/5.16.2) |
