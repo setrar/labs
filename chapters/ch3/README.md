@@ -1,14 +1,14 @@
 # labs
 
 
-## Chapter :two: 
+## Chapter :three: 
 
 - [ ] Create the project
 
 ```
 mvn archetype:generate \
-    -DgroupId=org.apache.activemq.book.ch2 \
-    -DartifactId=ch2 \
+    -DgroupId=org.apache.activemq.book.ch3 \
+    -DartifactId=ch3 \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DarchetypeVersion=1.4 \
     -DinteractiveMode=false
@@ -16,10 +16,10 @@ mvn archetype:generate \
 
 - [ ] Do some coding
 
-* Go to the `ch2` project
+* Go to the `ch3` project
 
 ```
-cd ch2
+cd ch3
 ```
 
 * Add the `jobs` folder along with the `Producer` and `Consumer`
@@ -34,8 +34,8 @@ mvn package
 
 ```
 java \
--classpath target/ch2-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
-org.apache.activemq.book.ch2.jobs.Producer 
+-classpath target/ch3-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
+org.apache.activemq.book.ch3.jobs.Producer 
 ```
 
 | Maven Libraries |
