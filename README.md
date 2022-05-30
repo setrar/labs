@@ -1,5 +1,10 @@
 # labs
 
+
+## Chapter :two: 
+
+- [ ] Create the project
+
 ```
 mvn archetype:generate \
     -DgroupId=org.apache.activemq.book.ch2 \
@@ -8,6 +13,24 @@ mvn archetype:generate \
     -DarchetypeVersion=1.4 \
     -DinteractiveMode=false
 ```
+
+- [ ] Do some coding
+
+* Go to the `ch2` project
+
+```
+cd ch2
+```
+
+* Add the `jobs` folder along with the `Producer` and `Consumer`
+
+- [ ] Let's package the project
+
+```
+mvn package
+```
+
+- [ ] Let's run the `jobs` folder
 
 ```
 java \
