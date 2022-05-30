@@ -1,5 +1,5 @@
 # Chapters
 
 ```
-export CHAPTERS=$HOME/Developer/chapters
+export CHAPTERS=$HOME/Developer/labs/chapters
 ```
