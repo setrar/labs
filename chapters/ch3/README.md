@@ -1,9 +1,6 @@
-# labs
+# Chapter :three: 
 
-
-## Chapter :three: 
-
-- [ ] Create the project
+- [ ] Create the `maven` project
 
 ```
 mvn archetype:generate \
@@ -14,9 +11,7 @@ mvn archetype:generate \
     -DinteractiveMode=false
 ```
 
-- [ ] Do some coding
-
-* Go to the `ch3` project
+- [ ] Navigate to the newly created `ch3` folder
 
 ```
 cd ch3
@@ -37,6 +32,12 @@ java \
 -classpath target/ch3-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
 org.apache.activemq.book.ch3.jobs.Producer 
 ```
+
+# [:back: ..] Return to main page 
+
+# References
+
+- [ ] Library used for this chapter
 
 | Maven Libraries |
 |-----------------|
