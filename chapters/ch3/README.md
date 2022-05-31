@@ -17,6 +17,16 @@ mvn archetype:generate \
 cd ch3
 ```
 
+- [ ] Open [VSC](https://code.visualstudio.com)
+
+```
+code .
+```
+
+## :a: jobs
+
+- [ ] Create a new `jobs` folder
+
 * Add the `jobs` folder along with the `Producer` and `Consumer`
 
 - [ ] Let's package the project
