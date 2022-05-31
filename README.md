@@ -10,4 +10,4 @@ export LABS=$HOME/Developer/labs
 
 | :hash:            | Chapters |
 |-------------------|----------|
-| [ch:three:](ch3)  |          |
+| [`ch`:three:](ch3)  |          |
