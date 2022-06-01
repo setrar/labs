@@ -25,6 +25,15 @@ INFO: Starting - inspect logfiles specified in logging.properties and log4j.prop
 INFO: pidfile created : '/c/Users/NobleProg/Developer/labs/activeMQ/apache-activemq-5.16.2//data/activemq.pid' (pid '2315')
 ```
 
+```
+netstat -a | grep 61616
+```
+> Return
+```
+  TCP    0.0.0.0:61616          brice-p7sl:0           LISTENING
+  TCP    [::]:61616             brice-p7sl:0           LISTENING
+```
+ 
 
 ```
 bin/activemq stop
