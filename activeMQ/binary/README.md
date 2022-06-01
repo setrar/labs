@@ -39,6 +39,16 @@ netstat -a | grep 61616
 bin/activemq stop
 ```
 
+## Binary [examples](https://activemq.apache.org/examples)
+
+```
+java -cp target/amqp-example-0.1-SNAPSHOT.jar example.Listener
+```
+
+
+```
+java -cp target/amqp-example-0.1-SNAPSHOT.jar example.Publisher 
+```
 
 # References
 
