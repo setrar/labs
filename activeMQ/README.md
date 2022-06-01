@@ -79,7 +79,7 @@ docker run --name some-mongo --detach mongo
   TCP    [::1]:61616            [::]:0                 LISTENING
 ```
 
-- [ ] [ActiveMQ in Action](https://www.manning.com/books/activemq-in-action)
+- [ ] [:green_book: ActiveMQ in Action](https://www.manning.com/books/activemq-in-action)
 
 * about the reader
 
