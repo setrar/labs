@@ -2,7 +2,7 @@
 
 
 
-## :a: Chapters
+## :a: Syllabus
 
 ```
 export LABS=$HOME/Developer/labs
