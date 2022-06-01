@@ -112,7 +112,7 @@ public class Producer {
 mvn package
 ```
 
-- [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` 
+- [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument)
 
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch2.jobs.Producer
