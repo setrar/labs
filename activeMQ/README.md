@@ -23,6 +23,18 @@ mvn package
 
 - [ ] Run the app
 
+:rocket: running the app using `Maven` executable plugin `exec:<language>` along by `defining` its argument `exec.mainClass`
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
+```
+
+:steam_locomotive: Running the app using `java` binary
+
+:bulb: observe the `-classpath` argument
+
+
+
 ```
 java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App 
 ```
