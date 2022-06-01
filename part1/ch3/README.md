@@ -37,16 +37,20 @@ mvn package
 
 - [ ] Let's run the `jobs` folder
 
+:rocket: running the app using `Maven` executable scheme `exec:<language>` 
+
+```
+mvn exec:java -Dexec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
+```
+
+:steam_locomotive: Running the app using `java` binary
+
 ```
 java \
 -classpath target/ch3-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
 org.apache.activemq.book.ch3.jobs.Producer 
 ```
 
-```
-mvn exec:java \
--Dexec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
-```
 
 # [:back: ](..) Return to Part1
 
