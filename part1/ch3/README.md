@@ -35,9 +35,7 @@ code .
 mvn package
 ```
 
-- [ ] Let's run the `jobs` folder
-
-:rocket: running the app using `Maven` executable plugin `exec:<language>` 
+- [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` 
 
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
