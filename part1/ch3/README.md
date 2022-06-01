@@ -37,10 +37,10 @@ mvn package
 
 - [ ] Let's run the `jobs` folder
 
-:rocket: running the app using `Maven` executable scheme `exec:<language>` 
+:rocket: running the app using `Maven` executable plugin `exec:<language>` 
 
 ```
-mvn exec:java -Dexec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
 ```
 
 :steam_locomotive: Running the app using `java` binary
