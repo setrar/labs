@@ -9,8 +9,17 @@ unzip apache-activemq-5.16.2-bin.zip 
 ```
 
 ```
+cd apache-activemq-5.16.2
+```
+
+```
+bin/activemq start
+```
 
 
+```
+bin/activemq stop
+```
 
 
 # References
