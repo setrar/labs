@@ -1,4 +1,4 @@
-# :three:rd Chapter 
+# Chapter :three:
 
 - [ ] Create the `maven` project
 
