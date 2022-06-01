@@ -27,6 +27,12 @@ mvn package
 java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App 
 ```
 
+```
+mvn exec:java --define execMainClass=com.valiha.app.App 
+```
+
+
+
 ## :b: HellowWorldScala example from [Hello World Scala in the Cloud With Spring](https://dzone.com/articles/spring-scala-cloud-psh)
 
 - [ ] Create the maven `helloworldScala` project
