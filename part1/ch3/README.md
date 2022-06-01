@@ -43,6 +43,11 @@ java \
 org.apache.activemq.book.ch3.jobs.Producer 
 ```
 
+```
+mvn exec:java \
+-Dexec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
+```
+
 # [:back: ](..) Return to Part1
 
 # References
