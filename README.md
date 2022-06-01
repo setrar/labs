@@ -8,6 +8,7 @@
 export LABS=$HOME/Developer/labs
 ```
 
-| :hash:            | Chapters |
-|-------------------|----------|
-| [`ch`:three:](ch3)  |          |
+| :hash:            | Chapters            | Description                               |
+|-------------------|---------------------|-------------------------------------------|
+| Part :one:        |                     | An introduction to messaging and ActiveMQ |
+|                   | [`ch`:three:](ch3)  |                                           |
