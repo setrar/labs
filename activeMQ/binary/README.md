@@ -15,6 +15,15 @@ cd apache-activemq-5.16.2
 ```
 bin/activemq start
 ```
+> Return
+```
+INFO: Using default configuration
+      Configurations are loaded in the following order: /etc/default/activemq /c/Users/NobleProg/.activemqrc /c/Users/NobleProg/Developer/labs/activeMQ/apache-activemq-5.16.2//bin/env
+
+INFO: Using java '/c/Users/NobleProg/.sdkman/candidates/java/current/bin/java'
+INFO: Starting - inspect logfiles specified in logging.properties and log4j.properties to get details
+INFO: pidfile created : '/c/Users/NobleProg/Developer/labs/activeMQ/apache-activemq-5.16.2//data/activemq.pid' (pid '2315')
+```
 
 
 ```
