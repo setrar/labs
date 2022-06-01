@@ -28,7 +28,7 @@ java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App
 ```
 
 ```
-mvn exec:java --define execMainClass=com.valiha.app.App 
+mvn exec:java --define exec.mainClass=com.valiha.app.App 
 ```
 
 
