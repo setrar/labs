@@ -26,23 +26,16 @@ mvn package
 :rocket: running the app using `Maven` executable plugin `exec:<language>` along by `defining` its argument `exec.mainClass`
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
+mvn exec:java --define exec.mainClass=com.valiha.app.App 
 ```
 
 :steam_locomotive: Running the app using `java` binary
 
-:bulb: observe the `-classpath` argument
-
-
+:bulb: observe the `-classpath` argument which may be extra long
 
 ```
 java -classpath target/helloworld-1.0-SNAPSHOT.jar com.valiha.app.App 
 ```
-
-```
-mvn exec:java --define exec.mainClass=com.valiha.app.App 
-```
-
 
 
 ## :b: HellowWorldScala example from [Hello World Scala in the Cloud With Spring](https://dzone.com/articles/spring-scala-cloud-psh)
