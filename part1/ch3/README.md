@@ -45,7 +45,7 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
 
 :steam_locomotive: Running the app using `java` binary
 
-:bulb: observe the `-classpath` argument
+:bulb: observe the `-classpath` argument which may is extra long
 
 ```
 java \
