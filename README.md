@@ -8,8 +8,8 @@
 export LABS=$HOME/Developer/labs
 ```
 
-| Parts                | Chapters                  | Description                                                          |
-|----------------------|---------------------------|----------------------------------------------------------------------|
+| Parts                | Chapters                  | Descriptions                                                         |
+|----------------------|---------------------------|:---------------------------------------------------------------------|
 | [Part :one:](part1)  |                           | :heavy_plus_sign: AN INTRODUCTION TO MESSAGING AND ACTIVEMQ          |
 |                      | [`ch`:one: ](part1/ch1)   | :heavy_minus_sign: Introduction to Apache ActiveMQ                   |
 |                      | [`ch`:two: ](part1/ch2)   | :heavy_minus_sign: Understanding message-oriented middleware and JMS |
