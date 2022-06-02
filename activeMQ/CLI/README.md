@@ -1,4 +1,4 @@
-# [CLI](https://activemq.apache.org/activemq-command-line-tools-reference.html)
+# [ :desktop_computer: CLI](https://activemq.apache.org/activemq-command-line-tools-reference.html)
 
 # Install Binary 
 
