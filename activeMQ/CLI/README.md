@@ -2,7 +2,7 @@
 
 ## :open_file_folder: Install Binary 
 
-- [ ] download the `activemq` distrobution binary
+:round_pushpin:  Install Apache ActiveMQ by downloading the `activemq` distribution binary
 
 ```
 curl -o apache-activemq-5.16.2-bin.zip https://archive.apache.org/dist/activemq/5.16.2/apache-activemq-5.16.2-bin.zip 
@@ -14,14 +14,14 @@ curl -o apache-activemq-5.16.2-bin.zip https://archive.apache.org/dist/activemq/
 unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
 ```
 
-- [ ] Start ActiveMQ 
+:round_pushpin: Start ActiveMQ 
 
 * Can also be started with `console` argument, CLI doesn't return, use `CTRL+C` to exit
 
 ```
 bin/activemq start
 ```
-> Return
+> Returns
 ```
 INFO: Using default configuration
       Configurations are loaded in the following order: /etc/default/activemq /c/Users/NobleProg/.activemqrc /c/Users/NobleProg/Developer/labs/activeMQ/apache-activemq-5.16.2//bin/env
@@ -31,12 +31,17 @@ INFO: Starting - inspect logfiles specified in logging.properties and log4j.prop
 INFO: pidfile created : '/c/Users/NobleProg/Developer/labs/activeMQ/apache-activemq-5.16.2//data/activemq.pid' (pid '2315')
 ```
 
-- check if `activemq` is running on Ehternet Port `61616`
+- [ ] visit the admin console
+
+http://localhost:8161/admin
+
+
+- [ ] check if `activemq` is running on Ehternet Port `61616`
 
 ```
 netstat -a | grep 61616
 ```
-> Return
+> Returns
 ```
   TCP    0.0.0.0:61616          brice-p7sl:0           LISTENING
   TCP    [::]:61616             brice-p7sl:0           LISTENING
@@ -47,26 +52,6 @@ netstat -a | grep 61616
 ```
 bin/activemq stop
 ```
-
-:round_pushpin:  Install Apache ActiveMQ
-
-```
-curl https://archive.apache.org/dist/activemq/5.16.2/apache-activemq-5.16.2-bin.zip -o apache-activemq-5.16.2-bin.zip
-```
-
-```
-unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
-```
-
-:round_pushpin: Run the `activemq`
-
-```
-bin/activemq console
-```
-
-* visit the admin console
-
-http://localhost:8161/admin
 
 :round_pushpin: Run the `amqp example`
 
