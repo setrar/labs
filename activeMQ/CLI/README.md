@@ -68,6 +68,16 @@ curl https://archive.apache.org/dist/activemq/5.16.2/apache-activemq-5.16.2-bin.
 unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
 ```
 
+:round_pushpin: Run the `activemq`
+
+```
+bin/activemq console
+```
+
+* visit the admin console
+
+http://localhost:8161/admin
+
 :round_pushpin: Run the `amqp example`
 
 ```
