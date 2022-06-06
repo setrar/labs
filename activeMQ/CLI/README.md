@@ -68,10 +68,10 @@ curl https://archive.apache.org/dist/activemq/5.16.2/apache-activemq-5.16.2-bin.
 unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
 ```
 
-:round_pushpin: Run the `amqp` example
+:round_pushpin: Run the `amqp example`
 
 ```
-cd apache-activemq-5.16.2/examples/amqp
+cd examples/amqp
 ```
 
 ```
