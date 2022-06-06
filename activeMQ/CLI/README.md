@@ -55,3 +55,33 @@ java -cp target/amqp-example-0.1-SNAPSHOT.jar example.Publisher 
 # References
 
 - [ ] [Using ActiveMQ > Getting Started](https://activemq.apache.org/getting-started)
+
+- [ ] [ActiveMQ 5.16.2 Release](https://activemq.apache.org/activemq-5016002-release)
+
+:round_pushpin:  Install Apache ActiveMQ
+
+```
+curl https://archive.apache.org/dist/activemq/5.16.2/apache-activemq-5.16.2-bin.zip -o apache-activemq-5.16.2-bin.zip
+```
+
+```
+unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
+```
+
+:round_pushpin: Run the `amqp` example
+
+```
+cd apache-activemq-5.16.2/examples/amqp
+```
+
+```
+mvn package
+```
+
+```
+java -classpath target/amqp-example-0.1-SNAPSHOT.jar example.Listener
+```
+
+```
+java -classpath target/amqp-example-0.1-SNAPSHOT.jar example.Publisher
+```
