@@ -1,8 +1,10 @@
 ## :a: jobs
 
-- [ ] Create a new `jobs` folder
+:bulb: in the `jobs` folder
 
-* Add the `jobs` folder along with the `Producer` and `Consumer`
+:round_pushpin: Add the `Producer` Java Source Code
+
+- [ ] use the Producer Class as an example
 
 ```java
 package org.apache.activemq.book.ch3.jobs;
@@ -93,6 +95,9 @@ mvn package
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
 ```
 
+:round_pushpin: Add the `Consumer` Java Source Code
+
+- [ ] use the `Consumer` Class as an example
 
 ```java
 package org.apache.activemq.book.ch3.jobs;
@@ -144,6 +149,8 @@ public class Consumer {
 
 }
 ```
+
+- [ ] you need the `Listener` Class to retrieve your message
 
 ```java
 package org.apache.activemq.book.ch3.jobs;
