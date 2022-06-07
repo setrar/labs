@@ -1,20 +1,20 @@
-# Chapter :two:
+# Chapter :three:
 
 - [ ] Create the `maven` project
 
 ```
 mvn archetype:generate \
-    -DgroupId=org.apache.activemq.book.ch2 \
-    -DartifactId=ch2 \
+    -DgroupId=org.apache.activemq.book.ch3 \
+    -DartifactId=ch3 \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DarchetypeVersion=1.4 \
     -DinteractiveMode=false
 ```
 
-- [ ] Navigate to the newly created `ch2` folder
+- [ ] Navigate to the newly created `ch3` folder
 
 ```
-cd ch2
+cd ch3
 ```
 
 - [ ] Open [VSC](https://code.visualstudio.com)
@@ -30,7 +30,7 @@ code .
 * Add the `jobs` folder along with the `Producer` and `Consumer`
 
 ```java
-package org.apache.activemq.book.ch2.jobs;
+package org.apache.activemq.book.ch3.jobs;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -115,12 +115,12 @@ mvn package
 - [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument)
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch2.jobs.Producer
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
 ```
 
 
 ```java
-package org.apache.activemq.book.ch2.jobs;
+package org.apache.activemq.book.ch3.jobs;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -171,7 +171,7 @@ public class Consumer {
 ```
 
 ```java
-package org.apache.activemq.book.ch2.jobs;
+package org.apache.activemq.book.ch3.jobs;
 
 import javax.jms.Message;
 import javax.jms.MessageListener;
@@ -215,7 +215,7 @@ public class Listener implements MessageListener {
 
 ```
 java \
--classpath target/ch2-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
-org.apache.activemq.book.ch2.jobs.Producer 
+-classpath target/ch3-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
+org.apache.activemq.book.ch3.jobs.Producer 
 ```
 
