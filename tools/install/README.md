@@ -5,7 +5,7 @@
 
 :round_pushpin: [ :chocolate_bar: Choco](https://chocolatey.org/install)
 
-- [ ] In `Powershell Admin` run the command
+:desktop_computer: In `Powershell Admin` run the command
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
@@ -21,7 +21,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## :b: Install Development Tools
 
-:tada: Using `choco` in `Powershell` admin terminal
+:desktop_computer: Using `choco` in `Powershell` admin terminal
 
 :round_pushpin: Install `git bash`to get :shell: `shell`  access and `git` to control the source code.
 
