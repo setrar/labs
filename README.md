@@ -1,6 +1,6 @@
 # labs
 
-## :gear: Install
+## :toolbox: Tools
 
 The below section show what to install to run the labs and exercises
 
