@@ -11,11 +11,7 @@ curl -o apache-activemq-5.16.2-bin.zip https://archive.apache.org/dist/activemq/
 - [ ] Extract the files and go to the `activemq` folder
 
 ```
-unzip apache-activemq-5.16.2-bin.zip
-```
-
-```
-cd apache-activemq-5.16.2
+unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
 ```
 
 :round_pushpin: Start ActiveMQ 
