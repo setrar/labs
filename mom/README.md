@@ -1,7 +1,7 @@
 # MOM - (Message Oriented Middleware) - ActiveMQ
 
 
-## :signal_strenght: Monitoring
+## :signal_strength: Monitoring
 
  <img src="../images/jconsole-connection.png" alt="hi" class="inline" width=780 />
 
