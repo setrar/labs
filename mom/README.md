@@ -3,7 +3,7 @@
 
 ## :signal_strength: Monitoring
 
-- [] [JConsole](https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html)
+- [ ] [JConsole](https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html)
 
 ```
 jconsole
