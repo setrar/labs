@@ -26,7 +26,15 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 ## :b: Install tools
 
-:tada: Using `sdk man`
+:tada: Using `choco` in `Powershell` admin terminal
+
+:round_pushpin: Install `git` and `git bash`
+
+```
+choco install git
+```
+
+:tada: Using `sdk man` in `git bash` terminal
 
 :round_pushpin: Install Java
 
