@@ -1,6 +1,6 @@
-## :a: jobs
+## :a: Portfolio
 
-:bulb: in the `jobs` folder
+:bulb: in the `portfolio` folder
 
 :round_pushpin: Add the `Producer` Java Source Code
 
