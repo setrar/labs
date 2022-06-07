@@ -24,11 +24,11 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
  curl -s "https://get.sdkman.io" | bash 
 ```
 
-## :b: Install tools
+## :b: Install Development Tools
 
 :tada: Using `choco` in `Powershell` admin terminal
 
-:round_pushpin: Install `git` and `git bash`
+:round_pushpin: Install `git` and `git bash` to control the source code and :shell: `shell`  access
 
 ```
 choco install git
