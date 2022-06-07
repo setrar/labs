@@ -14,7 +14,7 @@ choco install docker-desktop
 
 
 ```
-docker build . --tag labs-activemq:5.16.2
+docker image build . --tag labs-activemq:5.16.2
 ```
 
 
