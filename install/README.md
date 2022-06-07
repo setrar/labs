@@ -24,9 +24,20 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
  curl -s "https://get.sdkman.io" | bash 
 ```
 
+## :b: Install tools
+
+:tada: Using `sdk man`
+
+:round_pushpin: Install Java
+
 Omit Identifier to install default version 17.0.2-tem:
 
 ```
 sdk install java 17.0.2-tem
 ```
  
+ :round_pushpin: Install Maven
+ 
+ ```
+ sdk install maven
+ ```
