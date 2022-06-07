@@ -55,9 +55,13 @@ bin/activemq stop
 
 :round_pushpin: Run the `amqp`  Java Example
 
+- [ ] Go to the example folder
+
 ```
 cd examples/amqp/java
 ```
+
+- [ ] Compile the project
 
 ```
 mvn package
@@ -65,10 +69,13 @@ mvn package
 
 ## Binary [examples](https://activemq.apache.org/examples)
 
+- [ ] Run the listener first in a separate Terminal
 
 ```
 java -classpath target/amqp-example-0.1-SNAPSHOT.jar example.Listener
 ```
+
+- [ ] The Publisher should send messages, check back the Listener terminal
 
 ```
 java -classpath target/amqp-example-0.1-SNAPSHOT.jar example.Publisher
