@@ -12,20 +12,20 @@
 choco install docker-desktop
 ```
 
-- [ ] Build
+- [ ] Build the ActiveMQ image
 
 
 ```
 docker image build . --tag labs-activemq:5.16.2
 ```
 
-- [ ] Run
+- [ ] Run the ActiveMQ container
 
 ```
 docker container run --name activemq --publish 8161:8161 --publish 61616:61616 --detach labs-activemq:5.16.2 
 ```
 
-- [ ] Connect
+- [ ] Connect to ActiveMQ Web Console
 
 http:://localhost:8161/admin/
 
