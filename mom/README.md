@@ -3,7 +3,7 @@
 
 ## Monitoring
 
- <img src="../images/jconsole-connection.png" alt="hi" class="inline" width=280 />
+ <img src="../images/jconsole-connection.png" alt="hi" class="inline" width=780 />
 
 height=1310 
 
