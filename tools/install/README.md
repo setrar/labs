@@ -44,3 +44,12 @@ sdk install java 17.0.2-tem
  ```
  sdk install maven
  ```
+ 
+ ## :o: Install Container Tools
+
+:tada: Using `choco` in `Powershell` admin terminal
+
+
+```
+choco install docker-desktop
+```
