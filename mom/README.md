@@ -3,7 +3,7 @@
 
 ## Monitoring
 
-<img src='../images/jconsole-connection.png'  width=558 height=1310 /> </img>
+<img src="../images/jconsole-connection.png"  width="558" height="1310" /> </img>
 
 # References
 
