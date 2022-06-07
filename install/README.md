@@ -10,7 +10,7 @@ This lab uses Microsoft Windows Machine
 
 :round_pushpin: [Choco](https://chocolatey.org/install)
 
-- [ ] In Powershel Admin
+- [ ] In Powershell Admin run the command
 
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
