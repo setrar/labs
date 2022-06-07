@@ -1,4 +1,4 @@
-# ActiveMQ
+# MOM - (Message Oriented Middleware) - ActiveMQ
 
 
 # References
@@ -19,14 +19,3 @@
   TCP    [::]:61616             [::]:0                 LISTENING
   TCP    [::1]:61616            [::]:0                 LISTENING
 ```
-
-- [ ] [:green_book: ActiveMQ in Action](https://www.manning.com/books/activemq-in-action)
-
-* about the reader
-
-  This book requires a working knowledge of Java, but no previous experience with ActiveMQ or other message brokers is needed.
-
-* about the author
-
-  Bruce Snyder is a co-founder of Apache Geronimo, a committer for ActiveMQ, Camel, and ServiceMix, and a member of various JCP expert groups. Dejan Bosanac is an ActiveMQ committer. Rob Davies is a co-founder of ActiveMQ, ServiceMix, and Camel.
-
