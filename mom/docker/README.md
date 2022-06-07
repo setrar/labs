@@ -27,7 +27,7 @@ docker container run --name activemq --publish 8161:8161 --publish 61616:61616 -
 
 - [ ] Connect to ActiveMQ Web Console
 
-http:://localhost:8161/admin/
+http://localhost:8161/admin/
 
 
 User: `admin`
