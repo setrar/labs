@@ -1,6 +1,10 @@
 # MOM - (Message Oriented Middleware) - ActiveMQ
 
 
+## Monitoring
+
+<img src="../images/jconsole-connection.png"  width=558 height=1310 /></img>
+
 # References
 
 - [ ] [ActiveMQ Performance Testing](https://www.javacodegeeks.com/2018/09/activemq-performance-testing.html)
