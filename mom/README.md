@@ -5,10 +5,6 @@
 
  <img src="../images/jconsole-connection.png" alt="hi" class="inline" width=780 />
 
-height=1310 
-
-![image](../images/jconsole-connection.png)
-
 # References
 
 - [ ] [ActiveMQ Performance Testing](https://www.javacodegeeks.com/2018/09/activemq-performance-testing.html)
