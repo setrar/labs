@@ -1,5 +1,10 @@
 # labs
 
+## :gear: Install
+
+The below section show what to install to run the labs and exercises
+
+Click on the [:point_right: Install](install) link
 
 
 ## :a: Syllabus
