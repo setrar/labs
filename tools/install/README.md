@@ -28,7 +28,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 :tada: Using `choco` in `Powershell` admin terminal
 
-:round_pushpin: Install `git` and `git bash` to control the source code and :shell: `shell`  access
+:round_pushpin: Install `git bash`to get :shell: `shell`  access and `git` to control the source code.
 
 ```
 choco install git
@@ -36,7 +36,7 @@ choco install git
 
 :tada: Using `sdk man` in `git bash` terminal
 
-:round_pushpin: Install Java
+:round_pushpin: Install Java Compiler
 
 Omit Identifier to install default version 17.0.2-tem:
 
@@ -44,7 +44,7 @@ Omit Identifier to install default version 17.0.2-tem:
 sdk install java 17.0.2-tem
 ```
  
- :round_pushpin: Install Maven
+ :round_pushpin: Install Maven software project management
  
  ```
  sdk install maven
