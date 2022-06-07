@@ -1,15 +1,28 @@
-# Docker
+# :whale2: Container Tools
+
+
+## :a: Install  [Docker](https://www.docker.com/)
+
+:desktop_computer: Using `choco` in `Powershell` admin terminal
+
+
+- [ ] Install Docker Desktop
+
+```
+choco install docker-desktop
+```
 
 - [ ] Build
 
+
 ```
-docker build . --tag temp-activemq:5.16.0 
+docker image build . --tag labs-activemq:5.16.2
 ```
 
 - [ ] Run
 
 ```
-docker container run --name activemq --publish 8161:8161 --publish 61616:61616 --detach temp-activemq:5.16.0 
+docker container run --name activemq --publish 8161:8161 --publish 61616:61616 --detach labs-activemq:5.16.2 
 ```
 
 - [ ] Connect
