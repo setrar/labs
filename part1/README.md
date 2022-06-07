@@ -24,5 +24,11 @@ mvn archetype:generate \
     -DarchetypeVersion=1.4 \
     -DinteractiveMode=false
 ```
+- [ ] Navigate to the `ch3` folder
+
+```
+cd ch3
+```
+
 
 # [:back: ](../README.md) Return to labs
