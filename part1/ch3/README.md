@@ -1,21 +1,5 @@
 # Chapter :three:
 
-- [ ] Create the `maven` project
-
-```
-mvn archetype:generate \
-    -DgroupId=org.apache.activemq.book.ch3 \
-    -DartifactId=ch3 \
-    -DarchetypeArtifactId=maven-archetype-quickstart \
-    -DarchetypeVersion=1.4 \
-    -DinteractiveMode=false
-```
-
-- [ ] Navigate to the newly created `ch3` folder
-
-```
-cd ch3
-```
 
 - [ ] Open [VSC](https://code.visualstudio.com)
 
