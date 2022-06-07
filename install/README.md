@@ -23,3 +23,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
  curl -s "https://get.sdkman.io" | bash 
 ```
+
+Omit Identifier to install default version 17.0.2-tem:
+
+```
+sdk install java 17.0.2-tem
+```
+ 
