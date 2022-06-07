@@ -162,9 +162,9 @@ public class Consumer {
     	}
     }
 	
-	public Session getSession() {
-		return session;
-	}
+    public Session getSession() {
+        return session;
+    }
 
 
 }
