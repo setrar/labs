@@ -5,4 +5,4 @@ Tutorial on how to setup a `Windows` machine to use the ActiveMQ lab
 
 ## :warning: Prerequisites
 
-This lab uses Microsoft Windows Machine
+This lab uses :copyright: Microsoft Windows Machine
