@@ -3,6 +3,12 @@
 
 ## :signal_strength: Monitoring
 
+- [] [JConsole](https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html)
+
+```
+jconsole
+```
+
  <img src="../images/jconsole-connection.png" alt="hi" class="inline" width=780 />
 
 # References
