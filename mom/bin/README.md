@@ -53,10 +53,10 @@ netstat -a | grep 61616
 bin/activemq stop
 ```
 
-:round_pushpin: Run the `amqp example`
+:round_pushpin: Run the `amqp`  Java Example
 
 ```
-cd examples/amqp
+cd examples/amqp/java
 ```
 
 ```
