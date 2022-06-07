@@ -11,4 +11,18 @@ export LABS=$HOME/Developer/labs
 |                      | [`ch`:two: ](ch2)         | :heavy_minus_sign: Understanding message-oriented middleware and JMS |
 |                      | [`ch`:three: ](ch3)       | :heavy_minus_sign: The ActiveMQ in Action examples                   | :heavy_check_mark: |
 
+
+## Chapter :three:
+
+- [ ] Create the `ch3` Maven Project using the below command
+
+```
+mvn archetype:generate \
+    -DgroupId=org.apache.activemq.book.ch3 \
+    -DartifactId=ch3 \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DarchetypeVersion=1.4 \
+    -DinteractiveMode=false
+```
+
 # [:back: ](../README.md) Return to labs
