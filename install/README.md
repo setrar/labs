@@ -1,4 +1,4 @@
-# Install
+# :gear: Install
 
 Tutorial on how to setup a machine to use the ActiveMQ lab
 
