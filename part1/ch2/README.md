@@ -71,7 +71,7 @@ public class Producer {
         }
     }    
     
-	public static void main(String[] args) throws JMSException {
+    public static void main(String[] args) throws JMSException {
     	Producer producer = new Producer();
         while (total < 1000) {
             for (int i = 0; i < count; i++) {
@@ -83,10 +83,10 @@ public class Producer {
               Thread.sleep(1000);
             } catch (InterruptedException x) {
             }
-          }
+        }
         producer.close();
 
-	}
+    }
 	
     public void sendMessage() throws JMSException {
         int idx = 0;
