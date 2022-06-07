@@ -124,7 +124,7 @@ mvn package
 - [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument)
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Publisher
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Publisher
 ```
 
 :round_pushpin: Add the `Consumer` Java Source Code
