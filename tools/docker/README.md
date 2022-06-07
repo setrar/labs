@@ -1,5 +1,8 @@
 ## :whale2: Container Tools
 
+
+## :a: Install `docker`
+
 :tada: Using `choco` in `Powershell` admin terminal
 
 
