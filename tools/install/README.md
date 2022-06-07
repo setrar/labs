@@ -29,7 +29,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install git
 ```
 
-:tada: Using `sdk man` in `git bash` terminal
+:desktop_computer: Using `sdk man` in `git bash` terminal
 
 :round_pushpin: Install Java Compiler
 
