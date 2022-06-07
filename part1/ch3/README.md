@@ -11,8 +11,8 @@ code .
 
 | component | Source Code |
 |-----------|-------------|
-| Queue     | [jobs](jobs) |
-| Topic     | [portfolio](portfolio) |
+| Queue     | [jobs](org/apache/activemq/book/ch3/jobs) |
+| Topic     | [portfolio](org/apache/activemq/book/ch3/portfolio) |
 
 
 # [:back: ](..) Return to Part:one:
