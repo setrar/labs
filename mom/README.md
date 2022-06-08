@@ -10,6 +10,11 @@ Two ways to install ActiveMQ, one by using the official website and installing b
 
 ## :signal_strength: Monitoring
 
+
+- [ ] WebConsole
+
+ <img src="../images/activemq-web-consolepng" alt="hi" class="inline" width=780 />
+
 - [ ] [JConsole](https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html)
 
 ```
