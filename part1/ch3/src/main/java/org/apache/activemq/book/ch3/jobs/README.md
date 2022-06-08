@@ -185,7 +185,7 @@ public class Producer {
 mvn package
 ```
 
-- [ ] :rocket: Let's run the `Producer` app in a separate :desktop_computer:
+- [ ] :rocket: Let's run the `Producer` app in a separate :desktop_computer: terminal
 
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
