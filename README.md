@@ -4,7 +4,7 @@
 
 The below section show what to install to run the labs and exercises
 
-Click on the [:point_right: Install](install) link
+Click on the [:point_right: Tools ](tools) link
 
 
 ## :a: Syllabus
