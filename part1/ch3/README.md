@@ -12,7 +12,7 @@ code .
 | component | Source Code | |
 |-----------|-------------|--|
 | Queue     | [jobs](src/main/java/org/apache/activemq/book/ch3/jobs) | <img src="../../images/job-queue-example.png" width=517 height=231  /> </img> |
-| Topic     | [portfolio](src/main/java/org/apache/activemq/book/ch3/portfolio) | <img src="../../images/job-queue-example.png" width=528 height=237  /> </img> |
+| Topic     | [portfolio](src/main/java/org/apache/activemq/book/ch3/portfolio) | <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img> |
 
 # [:back: ](..) Return to Part:one:
 
