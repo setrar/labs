@@ -67,7 +67,7 @@ public class Consumer {
 - [ ] you need the `Listener` Class to retrieve your message
 
 ```java
-package org.apache.activemq.book.ch4.portfolio;
+package org.apache.activemq.book.ch4;
 
 import java.text.DecimalFormat;
 
