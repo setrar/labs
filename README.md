@@ -6,8 +6,11 @@ The below section show what to install to run the labs and exercises
 
 Click on the [:point_right: Tools ](tools) link
 
+## :a: MOM 
 
-## :a: Syllabus
+:eight_pointed_black_star: [mom](mom) Installation
+
+## :b: Syllabus
 
 ```
 export LABS=$HOME/Developer/labs
