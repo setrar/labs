@@ -8,7 +8,7 @@
 curl -o apache-activemq-5.16.2-bin.zip https://archive.apache.org/dist/activemq/5.16.2/apache-activemq-5.16.2-bin.zip
 ```
 
-- [ ] Extract the files and go to the `activemq` folder
+- [ ] Extract the files and :point_right: go to the `activemq` folder
 
 ```
 unzip apache-activemq-5.16.2-bin.zip && cd apache-activemq-5.16.2
