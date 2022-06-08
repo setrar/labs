@@ -12,9 +12,9 @@ ${ACTIVEMQ_HOME}/conf/activemq.xml
 | Parts                | Chapters                  | Descriptions                                                         | Available |
 |----------------------|---------------------------|:---------------------------------------------------------------------|-----------|
 | [Part :two:](.)  |                               | :heavy_plus_sign: CONFIGURING STANDARD ACTIVEMQ COMPONENTS           |
-|                      | [`ch`:four: ](ch4)        | :heavy_minus_sign: Connecting to ActiveMQ                            | 
+|                      | [`ch`:four: ](ch4)        | :heavy_minus_sign: Connecting to ActiveMQ                            | :point_left: | 
 |                      | [`ch`:five: ](ch5)        | :heavy_minus_sign: ActiveMQ message storage                          |
-|                      | [`ch`:six: ](ch6)         | :heavy_minus_sign: Securing ActiveMQ                                 | :point_left: |
+|                      | [`ch`:six: ](ch6)         | :heavy_minus_sign: Securing ActiveMQ                                 |
 
 
 ## Chapter :four:
