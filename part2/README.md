@@ -10,7 +10,7 @@ export ACTIVEMQ_HOME=${HOME}/Developer/labs/mom/binary/apache-activemq-5.16.2
 
 
 ```
-${ACTIVEMQ_HOME}/conf/activemq.xml
+nano ${ACTIVEMQ_HOME}/conf/activemq.xml
 ```
 
 
