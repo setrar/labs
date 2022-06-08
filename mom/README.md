@@ -4,9 +4,9 @@
 
 Two ways to install ActiveMQ, one by using the official website and installing binaries, the other by creating our own Docker image to install the container using `Docker Desktop`
 
-- [ ] [ :bookmark: binary](bin)
+- [ ] Install the [ :bookmark: binary](bin) application
 
-- [ ] [ :whale2: Docker](docker)
+- [ ] Install through the [ :whale2: Docker](docker) container application
 
 ## :signal_strength: Monitoring
 
