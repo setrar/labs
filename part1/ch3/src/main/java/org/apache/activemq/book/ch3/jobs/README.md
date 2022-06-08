@@ -179,4 +179,16 @@ public class Listener implements MessageListener {
 }
 ```
 
+## :b: Run
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Producer
+```
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.jobs.Listener
+```
+
+ 
+
 # [:back: ](../../../../../../../../../README.md) Return to `ch3`
