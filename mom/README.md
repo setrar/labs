@@ -13,7 +13,7 @@ Two ways to install ActiveMQ, one by using the official website and installing b
 
 - [ ] WebConsole
 
- <img src="../images/activemq-web-consolepng" alt="hi" class="inline" width=780 />
+ <img src="../images/activemq-web-console.png" alt="hi" class="inline" width=2406 />
 
 - [ ] [JConsole](https://docs.oracle.com/en/java/javase/17/management/using-jconsole.html)
 
