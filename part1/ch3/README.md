@@ -18,7 +18,7 @@ code .
 
 # References
 
-- [ ] Library used for this chapter
+- [ ] External `Maven` Libraries used for this chapter
 
 | Maven Libraries                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------|
