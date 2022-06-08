@@ -7,9 +7,11 @@ Tutorial on how to setup a `Windows` machine to use the ActiveMQ lab
 
 This lab uses :copyright: Microsoft Windows Machine
 
+## :a: Installing Package Managers and Development Tools
 
+:point_right: [Install](package_managers)
 
-## :a: HelloWorld example from [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+## :b HelloWorld example from [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 - [ ] Create the maven `helloworld` project
 
