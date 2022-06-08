@@ -1,4 +1,4 @@
-# MOM - (Message Oriented Middleware) - ActiveMQ
+# MOM - (Message Oriented Middleware) - Studying ActiveMQ
 
 ## :building_construction: Installing ActiveMQ `5.16.2`
 
