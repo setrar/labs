@@ -10,7 +10,7 @@ Click on the [:point_right: Tools ](tools) link
 
 Let's follow the :point_right: [mom](mom) Installation
 
-:warning: Set the [.bashrc](.bashrc) file with ${ACTIVEMQ_HOME} environment variable
+:warning: Set the [.bashrc](.bashrc) file with `${ACTIVEMQ_HOME}` environment variable
 
 ## :a: Syllabus
 
