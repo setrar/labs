@@ -7,7 +7,7 @@
 - [ ] use the `Consumer` Class as an example
 
 ```java
-package org.apache.activemq.book.ch3.portfolio;
+package org.apache.activemq.book.ch4.portfolio;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -57,7 +57,7 @@ public class Consumer {
 - [ ] you need the `Listener` Class to retrieve your message
 
 ```java
-package org.apache.activemq.book.ch3.portfolio;
+package org.apache.activemq.book.ch4.portfolio;
 
 import java.text.DecimalFormat;
 
@@ -93,7 +93,7 @@ mvn package
 - [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument) and `defining` the `exec.args` property to pass the stock tickers.
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Consumer --define exec.args="CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.portfolio.Consumer --define exec.args="CSCO ORCL"
 ```
 
 
@@ -102,7 +102,7 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Con
 - [ ] use the `Publisher` Class as an example
 
 ```java
-package org.apache.activemq.book.ch3.portfolio;
+package org.apache.activemq.book.ch4.portfolio;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -219,8 +219,8 @@ mvn package
 - [ ] :rocket: Let's run the `Publisher` app in a separate :desktop_computer: Terminal
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Publisher --define exec.args="CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.portfolio.Publisher --define exec.args="CSCO ORCL"
 ```
 
 
-# [:back: ](../../../../../../../../../README.md) Return to `ch3`
+# [:back: ](../../../../../../../../../README.md) Return to `ch4`
