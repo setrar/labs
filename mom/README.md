@@ -1,6 +1,6 @@
 # MOM - (Message Oriented Middleware) - ActiveMQ
 
-## :chains: Install ActiveMQ using
+## :building_construction: Install ActiveMQ using
 
 - [ ] [ :bookmark: binary](bin)
 
