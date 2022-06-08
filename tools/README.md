@@ -11,7 +11,9 @@ This lab uses :copyright: Microsoft Windows Machine
 
 :point_right: [Install](package_managers)
 
-## :b HelloWorld example from [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+:bulb: These tools were preinstalled for the training session
+
+## :b: HelloWorld example from [Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 - [ ] Create the maven `helloworld` project
 
