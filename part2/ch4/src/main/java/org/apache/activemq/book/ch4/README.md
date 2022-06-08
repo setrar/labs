@@ -1,6 +1,6 @@
-## :a: Portfolio
+## :a: Adapting the stock portfolio example
 
-:bulb: in the `portfolio` folder
+:bulb: in the `ch4` folder
 
 :round_pushpin: Add the `Consumer` Java Source Code
 
