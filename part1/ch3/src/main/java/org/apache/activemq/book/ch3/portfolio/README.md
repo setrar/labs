@@ -90,10 +90,10 @@ public class Listener implements MessageListener {
 mvn package
 ```
 
-- [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument)
+- [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument) and `defining` the `exec.args` property to pass the stock tickers.
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Consumer
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Consumer --define exec.args="CSCO ORCL"
 ```
 
 
@@ -219,7 +219,7 @@ mvn package
 - [ ] :rocket: Let's run the `Publisher` app in a separate :desktop_computer: Terminal
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Publisher
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch3.portfolio.Publisher --define exec.args="CSCO ORCL"
 ```
 
 
