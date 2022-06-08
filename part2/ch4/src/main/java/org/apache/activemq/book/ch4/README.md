@@ -7,7 +7,7 @@
 - [ ] use the `Consumer` Class as an example
 
 ```java
-package org.apache.activemq.book.ch4.portfolio;
+package org.apache.activemq.book.ch4;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -17,15 +17,15 @@ import javax.jms.MessageConsumer;
 import javax.jms.Session;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.activemq.book.ch3.portfolio.Listener;
 
 public class Consumer {
 
-    private static String brokerURL = "tcp://localhost:61616";
     private static transient ConnectionFactory factory;
     private transient Connection connection;
     private transient Session session;
     
-    public Consumer() throws JMSException {
+    public Consumer(String brokerURL) throws JMSException {
     	factory = new ActiveMQConnectionFactory(brokerURL);
     	connection = factory.createConnection();
         connection.start();
@@ -39,8 +39,18 @@ public class Consumer {
     }    
     
     public static void main(String[] args) throws JMSException {
-    	Consumer consumer = new Consumer();
-    	for (String stock : args) {
+    	if (args.length == 0) {
+    		System.err.println("Please define connection URI!");
+    		return;
+    	}
+    	
+    	//define connection URI
+    	Consumer consumer = new Consumer(args[0]);
+    	
+    	//extract topics from the rest of arguments
+    	String[] topics = new String[args.length - 1];
+    	System.arraycopy(args, 1, topics, 0, args.length - 1);
+    	for (String stock : topics) {
     		Destination destination = consumer.getSession().createTopic("STOCKS." + stock);
     		MessageConsumer messageConsumer = consumer.getSession().createConsumer(destination);
     		messageConsumer.setMessageListener(new Listener());
@@ -102,7 +112,7 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.portfolio.Con
 - [ ] use the `Publisher` Class as an example
 
 ```java
-package org.apache.activemq.book.ch4.portfolio;
+package org.apache.activemq.book.ch4;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -121,18 +131,17 @@ import org.apache.activemq.command.ActiveMQMapMessage;
 
 public class Publisher {
 	
-    protected int MAX_DELTA_PERCENT = 1;
-    protected Map<String, Double> LAST_PRICES = new Hashtable<String, Double>();
-    protected static int count = 10;
-    protected static int total;
+    private int MAX_DELTA_PERCENT = 1;
+    private Map<String, Double> LAST_PRICES = new Hashtable<String, Double>();
+    private static int count = 10;
+    private static int total;
     
-    protected static String brokerURL = "tcp://localhost:61616";
-    protected static transient ConnectionFactory factory;
-    protected transient Connection connection;
-    protected transient Session session;
-    protected transient MessageProducer producer;
+    private static transient ConnectionFactory factory;
+    private transient Connection connection;
+    private transient Session session;
+    private transient MessageProducer producer;
     
-    public Publisher() throws JMSException {
+    public Publisher(String brokerURL) throws JMSException {
     	factory = new ActiveMQConnectionFactory(brokerURL);
     	connection = factory.createConnection();
         connection.start();
@@ -147,10 +156,21 @@ public class Publisher {
     }
     
     public static void main(String[] args) throws JMSException {
-    	Publisher publisher = new Publisher();
+    	if (args.length == 0) {
+    		System.err.println("Please define connection URI!");
+    		return;
+    	}
+
+    	//define connection URI
+    	Publisher publisher = new Publisher(args[0]);
+
+
+    	//extract topics from the rest of arguments
+    	String[] topics = new String[args.length - 1];
+    	System.arraycopy(args, 1, topics, 0, args.length - 1);
         while (total < 1000) {
             for (int i = 0; i < count; i++) {
-                publisher.sendMessage(args);
+                publisher.sendMessage(topics);
             }
             total += count;
             System.out.println("Published '" + count + "' of '" + total + "' price messages");
@@ -192,13 +212,12 @@ public class Publisher {
         double offer = price * 1.001;
 
         boolean up = (price > oldPrice);
-
-		MapMessage message = session.createMapMessage();
-		message.setString("stock", stock);
-		message.setDouble("price", price);
-		message.setDouble("offer", offer);
-		message.setBoolean("up", up);
-		return message;
+        MapMessage message = session.createMapMessage();
+        message.setString("stock", stock);
+        message.setDouble("price", price);
+        message.setDouble("offer", offer);
+        message.setBoolean("up", up);
+        return message;
     }
 
     protected double mutatePrice(double price) {
