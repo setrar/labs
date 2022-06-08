@@ -5,7 +5,7 @@ export LABS=$HOME/Developer/labs
 ```
 
 ```
-export ACTIVEMQ_HOME=${HOME}/Developer/labs/mom/binary/apache-activemq-5.16.2 
+export ACTIVEMQ_HOME=${HOME}/Developer/labs/mom/binary/apache-activemq-5.16.2
 ```
 
 
