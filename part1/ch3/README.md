@@ -11,7 +11,7 @@ code .
 
 | component | Source Code | |
 |-----------|-------------|--|
-| Queue     | [jobs](src/main/java/org/apache/activemq/book/ch3/jobs) | <img src="../../images/job-queue-example.png" width=259  /> </img> |
+| Queue     | [jobs](src/main/java/org/apache/activemq/book/ch3/jobs) | <img src="../../images/job-queue-example.png" width=517 height=231  /> </img> |
 | Topic     | [portfolio](src/main/java/org/apache/activemq/book/ch3/portfolio) |
 
 
