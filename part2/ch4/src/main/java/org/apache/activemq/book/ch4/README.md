@@ -17,7 +17,6 @@ import javax.jms.MessageConsumer;
 import javax.jms.Session;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.apache.activemq.book.ch3.portfolio.Listener;
 
 public class Consumer {
 
@@ -64,7 +63,7 @@ public class Consumer {
 }
 ```
 
-- [ ] you need the `Listener` Class to retrieve your message
+- [ ] you need the `Listener` Class to retrieve your message (same source code as `ch3`)
 
 ```java
 package org.apache.activemq.book.ch4;
