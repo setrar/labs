@@ -9,9 +9,9 @@ code .
 
 - [ ] 2 coding examples
 
-| component | Source Code |
-|-----------|-------------|
-| Queue     | [jobs](src/main/java/org/apache/activemq/book/ch3/jobs) |
+| component | Source Code | |
+|-----------|-------------|--|
+| Queue     | [jobs](src/main/java/org/apache/activemq/book/ch3/jobs) | <img src="../../images/job-queue-example.png" /> </img> |
 | Topic     | [portfolio](src/main/java/org/apache/activemq/book/ch3/portfolio) |
 
 
