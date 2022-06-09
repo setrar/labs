@@ -14,7 +14,7 @@ code .
 | component | Source Code |  Protocol |
 |-----------|-------------|--|
 | Topic     | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) |
-| Topic     | [ssl](src/main/java/org/apache/activemq/book/ch4/ssl) |  SSL |
+| Topic     | [ssl](src/main/java/org/apache/activemq/book/ch4/ssl) |  [Java 16 SSL connection gives an error in the log](https://issues.apache.org/jira/browse/AMQ-8275?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel) |
 
 # [:back: ](..) Return to Part:two:
 
