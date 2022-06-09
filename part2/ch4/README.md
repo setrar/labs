@@ -35,6 +35,6 @@ https://mvnrepository.com/artifact/org.apache.qpid/qpid-jms-client/2.0.0
 ```
 java \
 -classpath target/ch4-1.0-SNAPSHOT.jar:$HOME/.m2/repository/javax/jms/javax.jms-api/2.0.1/javax.jms-api-2.0.1.jar:$HOME/.m2/repository/org/apache/activemq/activemq-all/5.16.2/activemq-all-5.16.2.jar \
-org.apache.activemq.book.ch4.jobs.Publisher 
+org.apache.activemq.book.ch4.Publisher 
 ```
 
