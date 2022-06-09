@@ -11,10 +11,11 @@ code .
 
 <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
 
-| component | Source Code |  Transport |
-|-----------|-------------|--|
-| Topic     | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) |
-| Topic     | [ssl](src/main/java/org/apache/activemq/book/ch4/ssl) |  [Java 16 SSL connection gives an error in the log](https://issues.apache.org/jira/browse/AMQ-8275?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel) |
+| component | Source Code |  Transport | Available |
+|-----------|-------------|--|----|
+| Topic     | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) | :heavy_check_mark: |
+| Topic     | [ssl](src/main/java/org/apache/activemq/book/ch4/ssl) |  [Java 16 SSL connection gives an error in the log](https://issues.apache.org/jira/browse/AMQ-8275?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel) | :x: |
+| Topic     | [http](src/main/java/org/apache/activemq/book/ch4/http) |  :clamp: | :x: |
 
 # [:back: ](..) Return to Part:two:
 
