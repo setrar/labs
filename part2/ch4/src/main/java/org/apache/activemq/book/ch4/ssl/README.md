@@ -1,4 +1,19 @@
 
+- [ ] Maven Plugin
+
+```
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>2.22.1</version>
+          <configuration>
+            <argLine>--add-opens java.base/sun.security.ssl=ALL-UNNAMED</argLine>
+          </configuration>
+        </plugin>
+ ```
+
+```
+vi ${ACTIVEMQ_HOME}/conf/activemq.xml
+
 ```
 ${ACTIVEMQ_HOME}/bin/activemq console xbean:src/main/resources/org/apache/activemq/book/ch4/activemq-ssl.xml 
 ```
