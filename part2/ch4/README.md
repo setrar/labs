@@ -9,9 +9,11 @@ code .
 
 - [ ] 1 coding example
 
-| component | Source Code |  Schematic |
+<img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
+
+| component | Source Code |  Protocol |
 |-----------|-------------|--|
-| Topic     | [openwire](src/main/java/org/apache/activemq/book/ch4/openwire) | <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img> |
+| Topic     | [openwire](src/main/java/org/apache/activemq/book/ch4/openwire) |  |
 
 # [:back: ](..) Return to Part:two:
 
