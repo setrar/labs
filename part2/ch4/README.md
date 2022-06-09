@@ -14,6 +14,7 @@ code .
 | component | Source Code |  Protocol |
 |-----------|-------------|--|
 | Topic     | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) |
+| Topic     | [ssl](src/main/java/org/apache/activemq/book/ch4/ssl) |  SSL |
 
 # [:back: ](..) Return to Part:two:
 
