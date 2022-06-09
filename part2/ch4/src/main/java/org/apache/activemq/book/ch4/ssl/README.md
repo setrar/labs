@@ -1,7 +1,7 @@
 
 - [ ] Maven Plugin
 
-```
+```xml
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
@@ -9,7 +9,7 @@
             <argLine>--add-opens java.base/sun.security.ssl=ALL-UNNAMED</argLine>
           </configuration>
         </plugin>
- ```
+```
 
 ```
 vi ${ACTIVEMQ_HOME}/conf/activemq.xml
