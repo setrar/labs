@@ -26,7 +26,13 @@ code .
 | [javax.jms/javax.jms-api/2.0.1](https://mvnrepository.com/artifact/javax.jms/javax.jms-api/2.0.1)                     |
 | [org.apache.activemq/activemq-all/5.16.2](https://mvnrepository.com/artifact/org.apache.activemq/activemq-all/5.16.2) |
 
-https://mvnrepository.com/artifact/org.apache.qpid/qpid-jms-client/2.0.0
+- [ ] External `Maven` Libraries used to expand your knowledge based on othe protocols `amqp`, ...
+
+| Maven Libraries                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------|
+| [QpidJMS Client » 0.58.0](https://mvnrepository.com/artifact/org.apache.qpid/qpid-jms-client/0.58.0) |
+
+
 
 - [ ] :steam_locomotive: Running the app using `java` binary
 
