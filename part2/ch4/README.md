@@ -13,8 +13,7 @@ code .
 
 | component | Source Code |  Protocol |
 |-----------|-------------|--|
-| Topic     | [openwire](src/main/java/org/apache/activemq/book/ch4/openwire) |  [OpenWire](https://activemq.apache.org/openwire) |
-| :%:       | [amqp](src/main/java/org/apache/activemq/book/ch4/amqp) |  [amqp](https://activemq.apache.org/amqp) |
+| Topic     | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) |
 
 # [:back: ](..) Return to Part:two:
 
