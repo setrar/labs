@@ -1,7 +1,7 @@
 # Part :two: :heavy_plus_sign: CONFIGURING STANDARD ACTIVEMQ COMPONENTS
 
 ```
-export LABS=$HOME/Developer/labs
+export LABS=${HOME}/Developer/labs
 ```
 
 ```
