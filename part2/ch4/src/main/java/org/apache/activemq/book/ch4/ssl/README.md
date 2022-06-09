@@ -1,4 +1,6 @@
 
+
+
 - [ ] Maven Plugin
 
 ```xml
@@ -15,6 +17,14 @@
 vi ${ACTIVEMQ_HOME}/conf/activemq.xml
 ```
 
+```xml
+<transportConnectors>
+ 
+   ...
+   <transportConnector name="ssl" uri="ssl://localhost:61617?trace=true" 
+</transportConnectors>
+``` 
+        
 ```
 ${ACTIVEMQ_HOME}/bin/activemq console xbean:src/main/resources/org/apache/activemq/book/ch4/activemq-ssl.xml 
 ```
