@@ -11,7 +11,7 @@ code .
 
 | component | Source Code |  Schematic |
 |-----------|-------------|--|
-| Topic     | [ch4](src/main/java/org/apache/activemq/book/ch4) | <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img> |
+| Topic     | [openwire](src/main/java/org/apache/activemq/book/ch4/openwire) | <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img> |
 
 # [:back: ](..) Return to Part:two:
 
