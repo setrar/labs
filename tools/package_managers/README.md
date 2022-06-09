@@ -38,7 +38,16 @@ Omit Identifier to install default version 17.0.2-tem:
 ```
 sdk install java 17.0.2-tem
 ```
- 
+
+```
+sdk install java 11.0.15-tem
+```
+
+```
+sdk use java 11.0.15-tem
+```
+
+
  :round_pushpin: Install Maven software project management
  
  ```
