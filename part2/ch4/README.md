@@ -7,13 +7,13 @@
 code .
 ```
 
-- [ ] 1 coding example
+- [ ] 1 coding activity  based on the Publisher example
 
 <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
 
 | component | Source Code |  Protocol |
 |-----------|-------------|--|
-| Topic     | [openwire](src/main/java/org/apache/activemq/book/ch4/openwire) |  |
+| Topic     | [openwire](src/main/java/org/apache/activemq/book/ch4/openwire) |  [OpenWire](https://activemq.apache.org/openwire) |
 
 # [:back: ](..) Return to Part:two:
 
