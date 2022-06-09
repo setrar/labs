@@ -1,13 +1,13 @@
 ## :a: Adapting the stock portfolio example
 
-:bulb: in the `ch4` folder
+:bulb: in the `openwire` folder
 
 :round_pushpin: Add the `Consumer` Java Source Code
 
 - [ ] use the `Consumer` Class as an example
 
 ```java
-package org.apache.activemq.book.ch4;
+package org.apache.activemq.book.ch4.openwire;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -66,7 +66,7 @@ public class Consumer {
 - [ ] you need the `Listener` Class to retrieve your message (same source code as `ch3`)
 
 ```java
-package org.apache.activemq.book.ch4;
+package org.apache.activemq.book.ch4.openwire;
 
 import java.text.DecimalFormat;
 
@@ -104,13 +104,13 @@ mvn package
 * using `tcp` protocol
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Consumer --define exec.args="tcp://localhost:61616 CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.openwire.Consumer --define exec.args="tcp://localhost:61616 CSCO ORCL"
 ```
 
 * using `nio` protocol
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Consumer --define exec.args="nio://localhost:61616 CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.openwire.Consumer --define exec.args="nio://localhost:61616 CSCO ORCL"
 ```
 
 
@@ -119,7 +119,7 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Consumer --de
 - [ ] use the `Publisher` Class as an example
 
 ```java
-package org.apache.activemq.book.ch4;
+package org.apache.activemq.book.ch4.openwire;
 
 import java.util.Hashtable;
 import java.util.Map;
@@ -247,13 +247,13 @@ mvn package
 * using `tcp` protocol
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Publisher --define exec.args="tcp://localhost:61616 CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.openwire.Publisher --define exec.args="tcp://localhost:61616 CSCO ORCL"
 ```
 
 * using `nio` protocol
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Publisher --define exec.args="nio://localhost:61616 CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.openwire.Publisher --define exec.args="nio://localhost:61616 CSCO ORCL"
 ```
 
 
