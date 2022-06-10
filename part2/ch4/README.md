@@ -7,9 +7,6 @@
 code .
 ```
 
-- [ ] 1 coding activity  based on the Publisher example
-
-<img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
 
 - [ ] Transport Connectors
 
@@ -21,6 +18,10 @@ code .
    <transportConnector name="xmpp"     uri="xmpp://localhost:61222"/>
 </transportConnectors>
 ```
+
+- [ ] 1 coding activity  based on the Publisher example
+
+<img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
 
 | Source Code |  Transport | Available |
 |-------------|--|----|
