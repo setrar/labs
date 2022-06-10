@@ -1,4 +1,4 @@
-# Chapter :four:
+# Chapter :four: :heavy_minus_sign: Connecting to ActiveMQ
 
 
 - [ ] Open [VSC](https://code.visualstudio.com)
