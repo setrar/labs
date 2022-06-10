@@ -15,7 +15,7 @@ code .
 |-------------|--|----|
 | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) | :heavy_check_mark: |
 | [ssl](src/main/java/org/apache/activemq/book/ch4/ssl) |  [Java 16 SSL connection gives an error in the log](https://issues.apache.org/jira/browse/AMQ-8275?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel) | :x: |
-| [http](src/main/java/org/apache/activemq/book/ch4/http) |  :clamp: | :x: |
+| [http](src/main/java/org/apache/activemq/book/ch4/http) |  [HTTP and HTTPs Transports Reference](https://activemq.apache.org/http-and-https-transports-reference) | :x: |
 | [vm](src/main/java/org/apache/activemq/book/ch4/vm) |  :clamp: | :x: |
 
 # [:back: ](..) Return to Part:two:
