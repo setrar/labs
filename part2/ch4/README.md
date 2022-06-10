@@ -15,11 +15,10 @@ code .
 
 ```xml
 <transportConnectors>
-   <transportConnector name="openwire" uri="tcp://localhost:61616"
-     discoveryUri="multicast://default"/>
-   <transportConnector name="ssl"     uri="ssl://localhost:61617"/>
-   <transportConnector name="stomp"   uri="stomp://localhost:61613"/>
-   <transportConnector name="xmpp"    uri="xmpp://localhost:61222"/>
+   <transportConnector name="openwire" uri="tcp://localhost:61616" discoveryUri="multicast://default"/>
+   <transportConnector name="ssl"      uri="ssl://localhost:61617"/>
+   <transportConnector name="stomp"    uri="stomp://localhost:61613"/>
+   <transportConnector name="xmpp"     uri="xmpp://localhost:61222"/>
 </transportConnectors>
 ```
 
