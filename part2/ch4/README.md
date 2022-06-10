@@ -11,6 +11,18 @@ code .
 
 <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
 
+- [ ] Transport Connectors
+
+```xml
+<transportConnectors>
+   <transportConnector name="openwire" uri="tcp://localhost:61616"
+     discoveryUri="multicast://default"/>
+   <transportConnector name="ssl"     uri="ssl://localhost:61617"/>
+   <transportConnector name="stomp"   uri="stomp://localhost:61613"/>
+   <transportConnector name="xmpp"    uri="xmpp://localhost:61222"/>
+</transportConnectors>
+```
+
 | Source Code |  Transport | Available |
 |-------------|--|----|
 | [ch4](src/main/java/org/apache/activemq/book/ch4) |  [OpenWire](https://activemq.apache.org/openwire) | :heavy_check_mark: |
