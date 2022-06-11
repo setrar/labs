@@ -1,4 +1,4 @@
-# xbean
+# xbean - Starting the broker using Java
 
 :round_pushpin: Configure ActiveMQ with security plug-ins using XML
 
@@ -21,6 +21,9 @@
     </plugins>
 </broker> 
 ```
+
+:round_pushpin: Configure ActiveMQ with security plug-ins using Java
+
 
 ```java
 package org.apache.activemq.book.ch7.xbean;
