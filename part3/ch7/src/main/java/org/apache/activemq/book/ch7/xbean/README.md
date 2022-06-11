@@ -108,7 +108,7 @@ data/myBroker/KahaDB/lock
 - [ ] back to ch:six:
 
 * Open a new Terminal Window :desktop_computer: 
-* go back to ch:six: project `cd $LABS/part2/ch6`
+* go back to ch:six: project `cd ${LABS}/part2/ch6`
 * run the `Pulisher` app
 
 ```
