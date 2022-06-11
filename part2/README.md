@@ -35,5 +35,23 @@ mvn archetype:generate \
 cd ch4
 ```
 
+## Chapter :five:
+
+- [ ] Create the `ch5` Maven Project using the below command
+
+```
+mvn archetype:generate \
+    -DgroupId=org.apache.activemq.book.ch5 \
+    -DartifactId=ch5 \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DarchetypeVersion=1.4 \
+    -DinteractiveMode=false
+```
+- [ ] Navigate to the `ch5` folder
+
+```
+cd ch5
+```
+
 
 # [:back: ](../README.md) Return to labs
