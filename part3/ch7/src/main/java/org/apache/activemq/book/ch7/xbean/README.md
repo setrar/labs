@@ -68,6 +68,10 @@ public class Broker {
 }
 ```
 
+:bulb: Note
+
+One important thing to note in listing 7.3 is that you should always add your plug-ins before connectors; otherwise they won’t be initialized. Also, any connectors added after the broker has been started won’t be properly started either.
+
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.xbean.Broker
 ```
