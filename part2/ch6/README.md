@@ -53,7 +53,7 @@ javax.jms.JMSSecurityException: User name [null] or password is invalid.
 
 - [ ] Take the `Publisher.java` source code from ch:four:
 - [ ] Do not forget to change its `Java` package name to ch:six:
-- [ ] add the following code snippet to the Publisher Java `class`
+- [ ] add the following code snippet to the Publisher `Constructor` Java `class`
 
 * Snippet
 
@@ -61,7 +61,7 @@ javax.jms.JMSSecurityException: User name [null] or password is invalid.
 factory.createConnection(username, password);
 ```
 
-* Publisher Class end result
+* Publisher Class Constructor should look like tthis
 
 ```java
 private String username = "publisher";
