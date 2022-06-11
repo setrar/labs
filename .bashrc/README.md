@@ -5,6 +5,9 @@
 cat $HOME/.bashrc
 ```
  
+```
+export LABS=$HOME/Developer/labs
+```
  
 ```
 # Environment variable must be set after installing the activemq binary
