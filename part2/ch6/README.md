@@ -27,3 +27,12 @@ Two `plug-ins` are available in ActiveMQ to authenticate users:
 ${ACTIVEMQ_HOME}/bin/activemq console \
     xbean:src/main/resources/org/apache/activemq/book/ch6/activemq-simple.xml
 ```
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Publisher --define exec.args="tcp://localhost:61616 CSCO ORCL"
+```
+> Returns
+```
+[WARNING]
+javax.jms.JMSSecurityException: User name [null] or password is invalid.
+```
