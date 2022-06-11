@@ -29,6 +29,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install git
 ```
 
+:round_pushpin: Install MySQL Workbench
+ 
+```
+choco install mysql.workbench
+```
+
+
 :desktop_computer: Using `sdk man` in `git bash` terminal
 
 :round_pushpin: Install Java Compiler
@@ -53,4 +60,5 @@ sdk use java 11.0.15-tem
  ```
  sdk install maven
  ```
+ 
  
