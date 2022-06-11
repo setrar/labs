@@ -3,4 +3,4 @@
 
 | Source  |  Storage Type | Available |
 |---------|--|----|
-| [java](java) |  Plain Java | :heavy_check_mark: |
+| [xbean](xbean) |  Plain Java | :heavy_check_mark: |
