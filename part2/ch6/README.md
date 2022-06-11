@@ -1,4 +1,4 @@
-# 
+# ch:six: :heavy_minus_sign: Securing ActiveMQ
 
 Two plug-ins are available in ActiveMQ to authenticate users:
 
