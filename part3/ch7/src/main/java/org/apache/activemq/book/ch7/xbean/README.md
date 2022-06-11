@@ -1,5 +1,6 @@
 # xbean
 
+:round_pushpin: Configure ActiveMQ with security plug-ins using XML
 
 ```xml
 <broker xmlns="http://activemq.apache.org/schema/core" brokerName="myBroker" dataDirectory="${activemq.base}/data">
