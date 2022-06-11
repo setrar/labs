@@ -129,7 +129,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
     <property name="poolPreparedStatements" value="true"/>
   </bean>
 
-</beans> 
+</beans>
 ```
 
 
