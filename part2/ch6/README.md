@@ -75,3 +75,11 @@ public Publisher() throws JMSException {
     producer = session.createProducer(null);
 }
 ```
+
+- [ ] run the app
+
+```
+mvn exec:java \
+   --define exec.mainClass=org.apache.activemq.book.ch6.Publisher \
+   --define exec.args="tcp://localhost:61616 CSCO ORCL"
+```
