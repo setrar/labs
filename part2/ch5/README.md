@@ -6,7 +6,7 @@
 | [jdbc](jdbc) |  JDBC Persistence | :heavy_check_mark: |
 
 
-<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<!--  -->
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
@@ -16,5 +16,11 @@
 
 
 # References
+
+- [ ] External `Maven` Libraries used for this chapter
+
+| Maven Libraries                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------|
+| [MySQL Connector/J](https://mvnrepository.com/artifact/mysql/mysql-connector-java)                     |
 
 - [ ] [ActiveMQ - Persistence](http://activemq.apache.org/persistence.html)
