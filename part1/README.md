@@ -1,4 +1,4 @@
-# Part :one: :heavy_plus_sign: AN INTRODUCTION TO MESSAGING AND ACTIVEMQ
+# Part :one: :heavy_plus_sign: An introduction to messaging and ActiveMQ
 
 ```
 export LABS=$HOME/Developer/labs
@@ -6,7 +6,7 @@ export LABS=$HOME/Developer/labs
 
 | Parts                | Chapters                  | Descriptions                                                         | Available |
 |----------------------|---------------------------|:---------------------------------------------------------------------|-----------|
-| [Part :one:](.)  |                               | :heavy_plus_sign: AN INTRODUCTION TO MESSAGING AND ACTIVEMQ          |
+| [Part :one:](.)  |                               | :heavy_plus_sign: An introduction to messaging and ActiveMQ          |
 |                      | [`ch`:one: ](ch1)         | :heavy_minus_sign: Introduction to Apache ActiveMQ                   | 
 |                      | [`ch`:two: ](ch2)         | :heavy_minus_sign: Understanding message-oriented middleware and JMS |
 |                      | [`ch`:three: ](ch3)       | :heavy_minus_sign: The ActiveMQ in Action examples                   | :point_left: |
