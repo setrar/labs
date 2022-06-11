@@ -41,7 +41,7 @@ public class Broker {
 	public static void main(String[] args) throws Exception {
 		BrokerService broker = new BrokerService();
 		
-		// Initiate and configure the brokerr service
+		// Initiate and configure the broker service
 		broker.setBrokerName("myBroker");
 		broker.setDataDirectory("data/");
 		
@@ -54,14 +54,17 @@ public class Broker {
 		users.add(new AuthenticationUser("guest", "password", "guests"));
 		authentication.setUsers(users);
 		
+		// Add SimpleAuthentication Plugin
 		broker.setPlugins(new BrokerPlugin[]{authentication});
 		
 		/*JaasAuthenticationPlugin jaas = new JaasAuthenticationPlugin();
 		jaas.setConfiguration("src/main/resources/org/apache/activemq/book/ch5/login.config");
 		broker.setPlugins(new BrokerPlugin[]{jaas});*/		
 		
+		// Add transport connector
 		broker.addConnector("tcp://localhost:61616");
 		
+		// Start broker
 		broker.start();
 		
 		System.out.println();
