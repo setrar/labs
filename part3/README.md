@@ -28,3 +28,5 @@ mvn archetype:generate \
 ```
 cd ch7
 ```
+
+# [:back: ](../README.md) Return to labs
