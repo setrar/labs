@@ -1,4 +1,4 @@
-# Chapter :seven: :heavy_minus_sign: ActiveMQ message storage 
+# Chapter :seven: :heavy_minus_sign: Creating Java applications with ActiveMQ
 
 
 | Source  |  Storage Type | Available |
