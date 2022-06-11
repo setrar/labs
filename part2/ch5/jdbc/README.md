@@ -34,6 +34,7 @@ docker container exec --interactive --tty some-mysql bash
 mysql --user root --password
 ```
 
+:facepalm: `password` is the `root` password
 
 - [ ] In the MySQL CLI, create the `activemq` database
 
