@@ -3,4 +3,4 @@
 
 | Source  |  Storage Type | Available |
 |---------|--|----|
-| [xbean](xbean) |  Plain Java | :heavy_check_mark: |
+| [xbean](org/apache/activemq/book/ch7/xbean) |  Plain Java | :heavy_check_mark: |
