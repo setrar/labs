@@ -3,4 +3,4 @@
 
 | Source  |  Storage Type | Available |
 |---------|--|----|
-| [jdbc](jdbc) |  JDBC Persistence | :heavy_check_mark: |
+| [java](java) |  Plain Java | :heavy_check_mark: |
