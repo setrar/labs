@@ -1,6 +1,67 @@
 # ch:five:  The JDBC message store
 
 
+### MySQL Docker Installation 
+
+:a: Creating and Accessing the `MySQL` Container 
+
+https://hub.docker.com/_/mysql/
+
+* Creating the Container
+
+```
+docker container run --name some-mysql --env MYSQL_ROOT_PASSWORD=activemq --publish 3306:3306 --detach mysql:latest
+```
+
+* Accessing the Container
+
+```
+docker container exec --interactive --tty some-mysql bash
+```
+
+
+##### :b: `MySQL` Database Settings
+
+- [ ] launch the MySQL CLI (Command Level Interface) inside the container
+
+:bulb: The container's prompt should be the :hash: character
+
+```
+mysql --user root --password
+```
+
+
+- [ ] In the MySQL CLI, create the `activemq` database
+
+:bulb: The MySQL's CLI prompt should be `mysql>`
+
+```
+CREATE DATABASE activemq;
+```
+
+- [ ] create the `activemq` MySQL user (along with password)
+
+
+* user and password
+
+```
+CREATE USER 'activemq'@'localhost' IDENTIFIED BY 'activemq';
+```
+
+* user privileges to access the `activemq` DB
+
+```
+GRANT ALL ON activemq.* TO 'activemq'@'localhost';
+```
+
+- [ ] Immediate activation
+
+```
+flush privileges;
+```
+
+
+
 ```xml
 <!--
     Use JDBC for message persistence
