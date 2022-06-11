@@ -9,6 +9,8 @@ Two `plug-ins` are available in ActiveMQ to authenticate users:
 
 ## :a: Configuring the simple authentication plug-in
 
+- [ ] Add the `plug-in` to the ActiveMQ configuration file
+
 ```xml
         <plugins>
             <simpleAuthenticationPlugin>
@@ -23,13 +25,19 @@ Two `plug-ins` are available in ActiveMQ to authenticate users:
         </plugins>
 ```
 
+- [ ] Start the broker
+
 ```
 ${ACTIVEMQ_HOME}/bin/activemq console \
     xbean:src/main/resources/org/apache/activemq/book/ch6/activemq-simple.xml
 ```
 
+- [ ] Test the authentication
+
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Publisher --define exec.args="tcp://localhost:61616 CSCO ORCL"
+mvn exec:java \
+   --define exec.mainClass=org.apache.activemq.book.ch4.Publisher \
+   --define exec.args="tcp://localhost:61616 CSCO ORCL"
 ```
 > Returns
 ```
