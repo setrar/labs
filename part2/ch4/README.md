@@ -19,6 +19,23 @@ code .
 </transportConnectors>
 ```
 
+- [ ] Demo
+
+```
+        <transportConnectors>
+            <!-- Create a TCP transport that is advertised on via an IP multicast
+              group named default. -->
+            <transportConnector name="openwire" uri="tcp://localhost:61616" discoveryUri="multicast://default"/>
+            <!-- Create a SSL transport. Make sure to configure the SSL options
+              via the system properties or the sslContext element. -->
+            <transportConnector name="ssl" uri="ssl://localhost:61617"/>
+            <!-- Create a STOMP transport for STOMP clients. -->
+            <transportConnector name="stomp" uri="stomp://localhost:61613"/>
+            <!-- Create a Websocket transport for the websocket dmeo -->
+            <transportConnector name="ws" uri="ws://localhost:61614/" />
+        </transportConnectors>
+```
+
 - [ ] 1 coding activity  based on the Publisher example
 
 <img src="../../images/stock-portfolio-example.png" width=528 height=237  /> </img>
