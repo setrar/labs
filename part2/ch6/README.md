@@ -51,11 +51,17 @@ javax.jms.JMSSecurityException: User name [null] or password is invalid.
 
 :round_pushpin: Enabling `authentication` programmatically
 
+- [ ] Take the `Publisher.java` source code from ch:four:
+- [ ] Do not forget to change its `Java` package name to ch:six:
+- [ ] add the following snippet to the Publisher Java `class`
+
+* Snippet
 
 ```java
 factory.createConnection(username, password);
 ```
 
+* Publisher Class end result
 
 ```java
 private String username = "publisher";
