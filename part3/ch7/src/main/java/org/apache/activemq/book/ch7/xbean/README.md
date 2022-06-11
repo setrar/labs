@@ -90,3 +90,15 @@ WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data
 
 Press any key to stop the broker 
 ```
+
+```
+find data/myBroker/KahaDB
+```
+> Returns
+```
+data/myBroker/KahaDB/
+data/myBroker/KahaDB/db-1.log
+data/myBroker/KahaDB/db.data
+data/myBroker/KahaDB/db.redo
+data/myBroker/KahaDB/lock
+```  
