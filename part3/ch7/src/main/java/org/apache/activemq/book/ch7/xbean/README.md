@@ -40,6 +40,8 @@ public class Broker {
 
 	public static void main(String[] args) throws Exception {
 		BrokerService broker = new BrokerService();
+		
+		// Initiate and configure the brokerr service
 		broker.setBrokerName("myBroker");
 		broker.setDataDirectory("data/");
 		
