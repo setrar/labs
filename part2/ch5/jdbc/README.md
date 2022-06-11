@@ -22,7 +22,7 @@ docker container exec --interactive --tty some-mysql bash
 
 > the input device is not a TTY.  If you are using mintty, try prefixing the command with 'winpty' 
 
-:bulb: Add `winpty` in front of the command. To insert charaters at the beginning of the command type `CTRL+A` on your keyboard 
+:bulb: Add `winpty` in front of the command. To insert characters at the beginning of the command type `CTRL+A` on your keyboard 
 
 ### :round_pushpin: `MySQL` Database Settings
 
