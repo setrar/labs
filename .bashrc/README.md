@@ -6,6 +6,7 @@ cat $HOME/.bashrc
 ```
  
 ```
+# Where to locate the labs repository
 export LABS=$HOME/Developer/labs
 ```
  
