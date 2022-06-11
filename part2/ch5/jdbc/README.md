@@ -62,6 +62,16 @@ flush privileges;
 
 ## :b: Activate your ActiveMQ broker using the MySQL Storage parameters
 
+### :round_pushpin: run the Broker
+
+In the `ch5` directory
+
+```
+$(ACTIVEMQ_HOME)/bin/activemq console xbean:jdbc/activemq.xml
+```
+
+- [ ] The configuration file
+
 ```xml
 <!--
     Use JDBC for message persistence
