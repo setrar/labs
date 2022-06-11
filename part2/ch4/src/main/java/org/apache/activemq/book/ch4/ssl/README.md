@@ -28,7 +28,7 @@ mvn \
 ```
 
 
-<img src="../../../../../../../../../images/ssl-connector.png" width=1726  ></img>
+<img src="../../../../../../../../../images/ssl-connector.png" width=863  ></img>
 
 ## :warning: ERROR
 
