@@ -30,7 +30,16 @@ mvn \
 
 <img src="../../../../../../../../../images/ssl-connector.png" width=863  ></img>
 
-## :warning: ERROR
+
+# References
+
+- [ ] [Java 16 SSL connection gives an error in the log](https://issues.apache.org/jira/browse/AMQ-8275?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel)
+
+  JDK 11 support is coming in 5.17.0. This appears to be a module export problem
+
+  module java.base does not "exports sun.security.ssl" to unnamed module
+
+###### :warning: ERROR
 
 ```
 ERROR | Could not set property host on SSLSocket[hostname=null, port=0, Session(1654912974021|SSL_NULL_WITH_NULL_NULL)]
@@ -56,12 +65,5 @@ java.lang.reflect.InaccessibleObjectException: Unable to make public void sun.se
         at java.base/java.lang.Thread.run(Thread.java:833)
 ```
 
-# References
 
-- [ ] [Java 16 SSL connection gives an error in the log](https://issues.apache.org/jira/browse/AMQ-8275?page=com.atlassian.jira.plugin.system.issuetabpanels%3Aall-tabpanel)
-
-  JDK 11 support is coming in 5.17.0. This appears to be a module export problem
-
-  module java.base does not "exports sun.security.ssl" to unnamed module
-  
 - [ ] [How do I use SSL?](https://activemq.apache.org/how-do-i-use-ssl)
