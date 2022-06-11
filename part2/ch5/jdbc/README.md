@@ -7,13 +7,13 @@
 
 https://hub.docker.com/_/mysql/
 
-* Creating the Container
+- [ ] Creating the Container
 
 ```
 docker container run --name some-mysql --env MYSQL_ROOT_PASSWORD=activemq --publish 3306:3306 --detach mysql:latest
 ```
 
-* Accessing the Container
+- [ ] Accessing the Container
 
 ```
 docker container exec --interactive --tty some-mysql bash
