@@ -72,7 +72,7 @@ flush privileges;
 In the `ch5` directory
 
 ```
-${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/activemq.xml
+${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 ```
 
 - [ ] The configuration file
