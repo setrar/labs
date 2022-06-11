@@ -19,3 +19,4 @@ cp ${HOME}/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java
 | [MySQL Connector/J » 8.0.29](https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.29)                     |
 
 - [ ] [ActiveMQ - Persistence](http://activemq.apache.org/persistence.html)
+- [ ] [AMQ Message Store](https://activemq.apache.org/amq-message-store)
