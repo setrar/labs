@@ -74,7 +74,9 @@ public class Broker {
 
 :bulb: Note
 
-One important thing to note in listing 7.3 is that you should always add your plug-ins before connectors; otherwise they won’t be initialized. Also, any connectors added after the broker has been started won’t be properly started either.
+One important thing to note in Java listing above is that you should always add your plug-ins before connectors; otherwise they won’t be initialized. Also, any connectors added after the broker has been started won’t be properly started either.
+
+:round_pushpin: Start the broker
 
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.xbean.Broker
@@ -94,6 +96,8 @@ WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data
 
 Press any key to stop the broker 
 ```
+
+- [ ] Observe the File Message Storage :roll_of_paper:
 
 ```
 find data/myBroker/KahaDB
