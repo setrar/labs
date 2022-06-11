@@ -1,9 +1,9 @@
 # ch:five:  The JDBC message store
 
 
-### MySQL Docker Installation 
+## :a: MySQL Docker Installation 
 
-:a: Creating and Accessing the `MySQL` Container 
+### :parking: Creating and Accessing the `MySQL` Container 
 
 https://hub.docker.com/_/mysql/
 
@@ -20,7 +20,7 @@ docker container exec --interactive --tty some-mysql bash
 ```
 
 
-##### :b: `MySQL` Database Settings
+### :parking: `MySQL` Database Settings
 
 - [ ] launch the MySQL CLI (Command Level Interface) inside the container
 
