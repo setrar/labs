@@ -119,6 +119,12 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Consumer --de
 
 - [ ] use the `Publisher` Class as an example
 
+:warning: Fix the printout
+
+```java
+  System.out.println("Sending: " + message + " on destination: " + destination);
+```
+
 ```java
 package org.apache.activemq.book.ch4.amqp;
 
@@ -135,7 +141,6 @@ import javax.jms.MessageProducer;
 import javax.jms.Session;
 
 import org.apache.qpid.jms.JmsConnectionFactory;
-import org.apache.activemq.command.ActiveMQMapMessage;
 
 public class Publisher {
 	
@@ -201,7 +206,7 @@ public class Publisher {
         String stock = stocks[idx];
         Destination destination = session.createTopic("STOCKS." + stock);
         Message message = createStockMessage(stock, session);
-        System.out.println("Sending: " + ((ActiveMQMapMessage)message).getContentMap() + " on destination: " + destination);
+        System.out.println("Sending: " + message + " on destination: " + destination);
         producer.send(destination, message);
     }
 
@@ -234,7 +239,7 @@ public class Publisher {
         return price * (100 + percentChange) / 100;
     }
 
-}
+} 
 ```
 
 - [ ] Let's package the project
