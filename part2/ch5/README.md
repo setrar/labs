@@ -1,6 +1,10 @@
 # Chapter :five: :heavy_minus_sign: ActiveMQ message storage 
 
 
+```
+cp ${HOME}/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar ${ACTIVEMQ_HOME}/lib 
+```
+
 | Source  |  Storage Type | Available |
 |---------|--|----|
 | [jdbc](jdbc) |  JDBC Persistence | :heavy_check_mark: |
