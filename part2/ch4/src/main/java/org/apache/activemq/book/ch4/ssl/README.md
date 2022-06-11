@@ -27,6 +27,9 @@ mvn \
            --define exec.args="ssl://localhost:61617 CSCO ORCL"
 ```
 
+
+<img src="../../../../../../../images/ssl-connector.png" width= heigth= /> </img>
+
 ## :warning: ERROR
 
 ```
