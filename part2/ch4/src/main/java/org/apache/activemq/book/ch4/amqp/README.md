@@ -253,7 +253,9 @@ mvn package
 * using `amqp` protocol on port `5672`
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.amqp.Publisher --define exec.args="amqp://localhost:5672 CSCO ORCL"
+mvn exec:java \
+   --define exec.mainClass=org.apache.activemq.book.ch4.amqp.Publisher \
+   --define exec.args="amqp://localhost:5672 CSCO ORCL"
 ```
 
 
