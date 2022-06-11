@@ -284,7 +284,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
        journalLogFileSize="32768"
        useJournal="true"
        useQuickJournal="true"
-       dataSource="#derby-ds"
+       dataSource="#mysql-ds"
        dataDirectory="activemq-data" />
     </persistenceFactory>
 ```
