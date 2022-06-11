@@ -65,6 +65,12 @@ GRANT ALL ON activemq.* TO 'activemq'@'%';
 flush privileges;
 ```
 
+- [ ] Exiting from the MySQL CLI and container
+
+```
+exit
+```
+
 ## :b: Activate your ActiveMQ broker using the MySQL Storage parameters
 
 ### :round_pushpin: run the Broker
