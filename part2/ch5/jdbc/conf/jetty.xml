@@ -59,7 +59,7 @@
                   <property name="value" value="1; mode=block"/>
                 </bean>
                 <bean id="header" class="org.eclipse.jetty.rewrite.handler.HeaderPatternRule">
-                  <property name="pattern" value="*"/>
+                  <property name="pattern" value="*"/>
                   <property name="name" value="X-Content-Type-Options"/>
                   <property name="value" value="nosniff"/>
                 </bean>
@@ -125,7 +125,7 @@
 
         <property name="handler">
             <bean id="handlers" class="org.eclipse.jetty.server.handler.HandlerCollection">
-                <property name="handlers">
+                <property name="handlers">
                     <list>
                         <ref bean="contexts" />
                         <ref bean="securityHandler" />
