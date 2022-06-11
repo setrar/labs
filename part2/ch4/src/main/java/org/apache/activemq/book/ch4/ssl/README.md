@@ -51,7 +51,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make public void sun.se
         at org.apache.activemq.book.ch4.Publisher.main(Publisher.java:51)
         at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:254)
         at java.base/java.lang.Thread.run(Thread.java:833)
-``` 
+```
 
 # References
 
