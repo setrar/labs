@@ -88,4 +88,4 @@ mvn exec:java \
 
 :3rd_place_medal: To be implemented if requested
 
-# [:back: ](../../../../../../../../README.md) Return to `ch6`
+# [:back: ](../README.md) Return to `ch6`
