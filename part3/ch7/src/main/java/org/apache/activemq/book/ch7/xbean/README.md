@@ -67,3 +67,7 @@ public class Broker {
 
 }
 ```
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.xbean.Broker
+```
