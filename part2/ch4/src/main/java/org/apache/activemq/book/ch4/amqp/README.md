@@ -250,16 +250,10 @@ mvn package
 
 - [ ] :rocket: Let's run the `Publisher` app in a separate :desktop_computer: Terminal
 
-* using `tcp` protocol
+* using `amqp` protocol on port `5672`
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.amqp.Publisher --define exec.args="tcp://localhost:61616 CSCO ORCL"
-```
-
-* using `nio` protocol
-
-```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.Publisher --define exec.args="nio://localhost:61616 CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch4.amqp.Publisher --define exec.args="amqp://localhost:5672 CSCO ORCL"
 ```
 
 
