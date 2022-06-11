@@ -34,6 +34,8 @@ ${ACTIVEMQ_HOME}/bin/activemq console \
 
 - [ ] Test the authentication
 
+:bulb: Launche the app from ch:four:
+
 ```
 mvn exec:java \
    --define exec.mainClass=org.apache.activemq.book.ch4.Publisher \
