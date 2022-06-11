@@ -3,7 +3,7 @@
 
 ## :a: MySQL Docker Installation 
 
-### :parking: Creating and Accessing the `MySQL` Container 
+### :round_pushpin: Creating and Accessing the `MySQL` Container 
 
 https://hub.docker.com/_/mysql/
 
@@ -20,7 +20,7 @@ docker container exec --interactive --tty some-mysql bash
 ```
 
 
-### :parking: `MySQL` Database Settings
+### :round_pushpin: `MySQL` Database Settings
 
 - [ ] launch the MySQL CLI (Command Level Interface) inside the container
 
