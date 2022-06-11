@@ -6,15 +6,6 @@
 | [jdbc](jdbc) |  JDBC Persistence | :heavy_check_mark: |
 
 
-<!--  -->
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.29</version>
-</dependency>
-
-
-
 # References
 
 - [ ] External `Maven` Libraries used for this chapter
