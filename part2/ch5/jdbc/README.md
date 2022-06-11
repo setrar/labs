@@ -202,7 +202,10 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
             http://activemq.apache.org/persistence.html
         -->
         <persistenceAdapter>
+            <!--
             <kahaDB directory="${activemq.data}/kahadb"/>
+            -->
+            <jdbcPersistenceAdapter dataDirectory="${activemq.data}" dataSource="#mysql-ds"/>
         </persistenceAdapter>
 
 
@@ -256,6 +259,20 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
         Take a look at ${ACTIVEMQ_HOME}/conf/jetty.xml for more details
     -->
     <import resource="jetty.xml"/>
+
+        <!--
+        See more database locker options at http://activemq.apache.org/pluggable-storage-lockers.html
+    -->
+  
+    <!-- MySql DataSource Sample Setup -->
+    <bean id="mysql-ds" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
+      <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+      <property name="url" value="jdbc:mysql://localhost/activemq?relaxAutoCommit=true"/>
+      <property name="username" value="activemq"/>
+      <property name="password" value="activemq"/>
+      <property name="maxTotal" value="200"/>
+      <property name="poolPreparedStatements" value="true"/>
+    </bean>
 
 </beans> 
 ```
