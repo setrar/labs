@@ -51,7 +51,7 @@
         See more database locker options at http://activemq.apache.org/pluggable-storage-lockers.html
     -->
     <persistenceAdapter>
-       <jdbcPersistenceAdapter dataDirectory="${activemq.data}" dataSource="#derby-ds"/>
+       <jdbcPersistenceAdapter dataDirectory="${activemq.data}" dataSource="#mysql-ds"/>
     </persistenceAdapter>
 
     <transportConnectors>
@@ -60,10 +60,12 @@
   </broker>
 
   <!-- Embedded Derby DataSource Sample Setup -->
+  <!--
   <bean id="derby-ds" class="org.apache.derby.jdbc.EmbeddedDataSource">
     <property name="databaseName" value="derbydb"/>
     <property name="createDatabase" value="create"/>
   </bean>
+  -->
 
   <!-- Postgres DataSource Sample Setup -->
   <!--
@@ -80,7 +82,6 @@
   -->
 
   <!-- MySql DataSource Sample Setup -->
-  <!--
   <bean id="mysql-ds" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
     <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     <property name="url" value="jdbc:mysql://localhost/activemq?relaxAutoCommit=true"/>
@@ -89,7 +90,6 @@
     <property name="maxTotal" value="200"/>
     <property name="poolPreparedStatements" value="true"/>
   </bean>
-  -->
 
   <!-- Oracle DataSource Sample Setup -->
   <!--
