@@ -1,4 +1,4 @@
-# Part :two: :heavy_plus_sign: CONFIGURING STANDARD ACTIVEMQ COMPONENTS
+# Part :two: :heavy_plus_sign: Configuring standard ActiveMQ components
 
 ```
 export LABS=${HOME}/Developer/labs
@@ -11,7 +11,7 @@ nano ${ACTIVEMQ_HOME}/conf/activemq.xml
 
 | Parts                | Chapters                  | Descriptions                                                         | Available | Complete |
 |----------------------|---------------------------|:---------------------------------------------------------------------|-----------|----------|
-| [Part :two:](.)  |                               | :heavy_plus_sign: CONFIGURING STANDARD ACTIVEMQ COMPONENTS           |
+| [Part :two:](.)  |                               | :heavy_plus_sign: Configuring standard ActiveMQ components           |
 |                      | [`ch`:four: ](ch4)        | :heavy_minus_sign: Connecting to ActiveMQ                            | :point_left: | :x: |
 |                      | [`ch`:five: ](ch5)        | :heavy_minus_sign: ActiveMQ message storage                          | :point_left: | :x: |
 |                      | [`ch`:six: ](ch6)         | :heavy_minus_sign: Securing ActiveMQ                                 | :point_left: | not :100:% |
