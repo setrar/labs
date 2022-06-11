@@ -12,6 +12,7 @@
 
         <plugins>
             <simpleAuthenticationPlugin>
+                <!-- Four authentication users with their groups -->
                 <users>
                     <authenticationUser username="admin" password="password" groups="admins,publishers,consumers"/>
                     <authenticationUser username="publisher" password="password" groups="publishers,consumers"/>
