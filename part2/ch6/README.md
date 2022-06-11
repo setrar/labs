@@ -9,6 +9,8 @@ Two `plug-ins` are available in ActiveMQ to authenticate users:
 
 ## :a: Configuring the simple authentication plug-in
 
+:round_pushpin: Adding `authentication` to the broker
+
 - [ ] Add the `plug-in` to the ActiveMQ configuration file
 
 ```xml
@@ -46,6 +48,14 @@ mvn exec:java \
 [WARNING]
 javax.jms.JMSSecurityException: User name [null] or password is invalid.
 ```
+
+:round_pushpin: Enabling `authentication` programmatically
+
+
+```java
+factory.createConnection(username, password);
+```
+
 
 ```java
 private String username = "publisher";
