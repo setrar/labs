@@ -12,6 +12,7 @@ Two `plug-ins` are available in ActiveMQ to authenticate users:
 ```xml
         <plugins>
             <simpleAuthenticationPlugin>
+                <-- Four authentication users with their groups -->
                 <users>
                     <authenticationUser username="admin" password="password" groups="admins,publishers,consumers"/>
                     <authenticationUser username="publisher" password="password" groups="publishers,consumers"/>
