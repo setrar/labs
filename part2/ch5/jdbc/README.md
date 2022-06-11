@@ -50,13 +50,13 @@ CREATE DATABASE activemq;
 * user and password
 
 ```
-CREATE USER 'activemq'@'localhost' IDENTIFIED BY 'activemq';
+CREATE USER 'activemq'@'%' IDENTIFIED BY 'activemq';
 ```
 
 * user privileges to access the `activemq` DB
 
 ```
-GRANT ALL ON activemq.* TO 'activemq'@'localhost';
+GRANT ALL ON activemq.* TO 'activemq'@'%';
 ```
 
 - [ ] Immediate activation
