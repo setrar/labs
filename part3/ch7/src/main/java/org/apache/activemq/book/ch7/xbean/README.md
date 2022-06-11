@@ -2,34 +2,23 @@
 
 
 ```xml
-<broker xmlns="http://activemq.apache.org/schema/core"
-  brokerName="myBroker"
-  dataDirectory="${activemq.base}/data">
+<broker xmlns="http://activemq.apache.org/schema/core" brokerName="myBroker" dataDirectory="${activemq.base}/data">
 
- <transportConnectors>
-  <transportConnector name="openwire"
-   uri="tcp://localhost:61616" />
- </transportConnectors>
+    <transportConnectors>
+        <transportConnector name="openwire" uri="tcp://localhost:61616" />
+    </transportConnectors>
 
- <plugins>
-   <simpleAuthenticationPlugin>
-     <users>
-       <authenticationUser username="admin"
-                              password="password"
-                              groups="admins,publishers,consumers"/>
-       <authenticationUser username="publisher"
-                              password="password"
-                              groups="publishers,consumers"/>
-       <authenticationUser username="consumer"
-                              password="password"
-                              groups="consumers"/>
-       <authenticationUser username="guest"
-                              password="password"
-                              groups="guests"/>
-     </users>
-   </simpleAuthenticationPlugin>
- </plugins>
-</broker>
+    <plugins>
+        <simpleAuthenticationPlugin>
+            <users>
+                <authenticationUser username="admin" password="password" groups="admins,publishers,consumers" />
+                <authenticationUser username="publisher" password="password" groups="publishers,consumers" />
+                <authenticationUser username="consumer" password="password" groups="consumers" />
+                <authenticationUser username="guest" password="password" groups="guests" />
+            </users>
+        </simpleAuthenticationPlugin>
+    </plugins>
+</broker> 
 ```
 
 ```java
