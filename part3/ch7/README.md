@@ -24,3 +24,4 @@ code .
 | [javax.jms/javax.jms-api/2.0.1](https://mvnrepository.com/artifact/javax.jms/javax.jms-api/2.0.1)                     |
 | [org.apache.activemq/activemq-all/5.16.2](https://mvnrepository.com/artifact/org.apache.activemq/activemq-all/5.16.2) |
 | [ActiveMQ :: JAAS » 5.17.1](https://mvnrepository.com/artifact/org.apache.activemq/activemq-jaas/5.17.1) |
+| [Jackson Databind » 2.13.3](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.13.3) |
