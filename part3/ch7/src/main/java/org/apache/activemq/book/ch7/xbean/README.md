@@ -102,3 +102,17 @@ data/myBroker/KahaDB/db.data
 data/myBroker/KahaDB/db.redo
 data/myBroker/KahaDB/lock
 ```
+
+## :b: Test the Embedded Java Broker
+
+- [ ] back to ch:six:
+
+* Open a new Terminal Window :desktop_computer: 
+* go back to ch:six: project `cd $LABS/part2/ch6`
+* run the `Pulisher` app
+
+```
+mvn exec:java \
+   --define exec.mainClass=org.apache.activemq.book.ch6.Publisher \
+   --define exec.args="tcp://localhost:61616 CSCO ORCL" 
+``` 
