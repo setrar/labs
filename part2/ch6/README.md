@@ -46,3 +46,17 @@ mvn exec:java \
 [WARNING]
 javax.jms.JMSSecurityException: User name [null] or password is invalid.
 ```
+
+```java
+private String username = "publisher";
+private String password = "password";
+
+public Publisher() throws JMSException {
+    factory = new ActiveMQConnectionFactory(brokerURL);
+    connection = factory.createConnection(username, password);
+    connection.start();
+    session = connection.createSession(false,
+    Session.AUTO_ACKNOWLEDGE);
+    producer = session.createProducer(null);
+}
+```
