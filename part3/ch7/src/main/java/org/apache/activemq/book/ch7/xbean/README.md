@@ -71,3 +71,17 @@ public class Broker {
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.xbean.Broker
 ```
+> Returns
+```
+INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\KahaDB]
+INFO | KahaDB is version 7
+INFO | PListStore:[C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\tmp_storage] started
+INFO | Apache ActiveMQ 5.16.2 (myBroker, ID:brice-p7sl-riiz-54546-1654989137770-0:1) is starting
+INFO | Listening for connections at: tcp://kubernetes.docker.internal:61616
+INFO | Connector tcp://kubernetes.docker.internal:61616 started
+INFO | Apache ActiveMQ 5.16.2 (myBroker, ID:brice-p7sl-riiz-54546-1654989137770-0:1) started
+INFO | For help or more information please see: http://activemq.apache.org
+WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\KahaDB only has 15088 mb of usable space. - resetting to maximum available disk space: 15088 mb
+WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker only has 15088 mb of usable space. - resetting to maximum available disk space: 15088 mb
+```
+Press any key to stop the broker 
