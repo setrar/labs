@@ -289,7 +289,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
     </persistenceFactory>
 ```
 
-# [:back: ](../../../../../../../../README.md) Return to `ch5`
+# [:back: ](../README.md) Return to `ch5`
 
 - [ ] References
 
