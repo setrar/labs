@@ -60,7 +60,7 @@ GRANT ALL ON activemq.* TO 'activemq'@'localhost';
 flush privileges;
 ```
 
-
+## :o: Activate your ActiveMQ broker using the MySQL Storage parameters
 
 ```xml
 <!--
