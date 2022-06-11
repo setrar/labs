@@ -71,8 +71,7 @@ public Publisher() throws JMSException {
     factory = new ActiveMQConnectionFactory(brokerURL);
     connection = factory.createConnection(username, password);
     connection.start();
-    session = connection.createSession(false,
-    Session.AUTO_ACKNOWLEDGE);
+    session = connection.createSession(false,Session.AUTO_ACKNOWLEDGE);
     producer = session.createProducer(null);
 }
 ```
