@@ -79,7 +79,7 @@
             </systemUsage>
         </systemUsage>
 
-        <!--
+        <!--
             The transport connectors expose ActiveMQ over a given protocol to
             clients and other brokers. For more information, see:
 
