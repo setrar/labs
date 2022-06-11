@@ -34,7 +34,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console \
 
 - [ ] Test the authentication
 
-:bulb: Launche the app from ch:four:
+:bulb: Launch the app from ch:four:
 
 ```
 mvn exec:java \
