@@ -21,7 +21,7 @@ code .
 
 - [ ] Demo
 
-```
+```xml
         <transportConnectors>
             <!-- Create a TCP transport that is advertised on via an IP multicast
               group named default. -->
