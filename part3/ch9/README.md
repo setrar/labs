@@ -7,6 +7,7 @@
 | Source Code |  Transport | Available |
 |-------------|--|----|
 | [ch9](src/main/java/org/apache/activemq/book/ch9) |  [STOMP (Streaming Text Oriented Messaging Protocol)](https://activemq.apache.org/stomp) | :heavy_check_mark: |
+| [PHP](php) | PHP Example | :heavy_check_mark:  |
 | Python | [pyactivemq](https://code.google.com/archive/p/pyactivemq) No longer maintained :bangbang: | :x:  |
 
 # [:back: ](..) Return to Part:three:
