@@ -1,4 +1,4 @@
-# xbean - Starting the broker using Java
+# broker - Starting the broker using Java
 
 :round_pushpin: Configure ActiveMQ with security plug-ins using XML
 
