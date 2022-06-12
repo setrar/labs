@@ -12,6 +12,7 @@ code .
 | Source  |  Storage Type | Available |
 |---------|--|----|
 | [broker](src/main/java/org/apache/activemq/book/ch7/broker) |  Plain Java | :heavy_check_mark: |
+| [spring](src/main/java/org/apache/activemq/book/ch7/spring) |  Spring Framework | :x: Any Interest :grey_question: |
 
 # [:back: ](..) Return to Part:three:
 
