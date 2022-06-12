@@ -1,6 +1,18 @@
 # Chapter :one::zero:
 
+:round_pushpin: [Using ActiveMQ > Topologies](https://activemq.apache.org/topologies)
+
 <img src="../../images/activemq-topologies.png" width=575 > </img>
+
+:round_pushpin: [Features > Clustering > Networks of Brokers](https://activemq.apache.org/networks-of-brokers.html)
+
+```
+bin/activemq console xbean:examples/conf/activemq-demo.xml 
+```
+
+```
+bin/activemq console xbean:examples/conf/activemq-static-network-broker2.xml 
+``` 
 
 <img src="../../images/activemq-network-trace.png" width=3140 > </img>
 
@@ -18,9 +30,7 @@
 
   Clustering is a large topic and often means different things to different people. We’ll try to list the various aspects of clustering and how they relate to ActiveMQ
 
-- [ ] [Features > Clustering > Networks of Brokers](https://activemq.apache.org/networks-of-brokers.html)
-
 :round_pushpin: Using ActiveMQ
 
-- [ ] [Using ActiveMQ > Topologies](https://activemq.apache.org/topologies)
+
 
