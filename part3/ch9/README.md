@@ -200,6 +200,9 @@ public class Publisher {
         producer.send(destination, message);
     }
 
+    /**
+     * CREATE XML DATA !!! 
+     */
     protected Message createStockMessage(String stock, Session session) throws JMSException, XMLStreamException {
         Double value = LAST_PRICES.get(stock);
         if (value == null) {
