@@ -140,6 +140,8 @@ mvn exec:java \
 
 ## :b: Factory
 
+- [ ] Create the Java Source Code `Factory.java` in the `broker` folder
+
 ```java
 package org.apache.activemq.book.ch7.broker;
 
@@ -165,5 +167,14 @@ public class Factory {
 
 }
 ```
+
+- [ ] Compile and run the app
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Factory \
+              --define log4j.configuration=file:src/main/resources/log4j.xml
+```
+
+-- [ ] Test using the `Publisher` app from ch:six:
 
 # [:back: ](../../../../../../../../../README.md) Return to `ch7`
