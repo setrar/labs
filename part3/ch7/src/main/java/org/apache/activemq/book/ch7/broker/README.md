@@ -84,7 +84,8 @@ One important thing to note in Java listing above is that you should always add 
 :round_pushpin: Start the broker
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Broker
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Broker \
+              --define log4j.configuration=file:src/main/resources/log4j.xml 
 ```
 > Returns
 ```
