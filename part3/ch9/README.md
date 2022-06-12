@@ -8,7 +8,7 @@
 |-------------|--|----|
 | [ch9](src/main/java/org/apache/activemq/book/ch9) |  [Stomp](https://activemq.apache.org/stomp) | :heavy_check_mark: |
 
-# [:back: ](..) Return to Part:two:
+# [:back: ](..) Return to Part:three:
 
 # References
 
