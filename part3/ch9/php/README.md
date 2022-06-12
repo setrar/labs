@@ -1,6 +1,6 @@
 ```php
 <?php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/./vendor/autoload.php';
 /**
  *
  * Copyright (C) 2009 Progress Software, Inc. All rights reserved.
