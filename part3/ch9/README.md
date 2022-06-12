@@ -6,7 +6,7 @@
 
 | Source Code |  Transport | Available |
 |-------------|--|----|
-| [ch9](src/main/java/org/apache/activemq/book/ch9) |  [Stomp](https://activemq.apache.org/stomp) | :heavy_check_mark: |
+| [ch9](src/main/java/org/apache/activemq/book/ch9) |  [STOMP (Streaming Text Oriented Messaging Protocol)](https://activemq.apache.org/stomp) | :heavy_check_mark: |
 
 # [:back: ](..) Return to Part:three:
 
