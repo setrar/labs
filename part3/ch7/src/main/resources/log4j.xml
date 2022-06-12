@@ -5,21 +5,9 @@
             <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
         </layout>
     </appender>
-
-    <logger name="org.springframework">
-        <level value="info" />
-    </logger>
-
-    <logger name="org.apache.activemq">
-        <level value="info" />
-    </logger>
-
-    <logger name="org.apache.activemq.book">
-        <level value="debug" />
-    </logger>
     
     <root>
-        <level value="DEBUG"/>
+        <level value="INFO"/>
         <appender-ref ref="stdout"/>
     </root>
 </log4j:configuration>
