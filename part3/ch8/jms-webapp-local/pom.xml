@@ -103,6 +103,11 @@
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
     </dependency>
+    <dependency>
+      <groupId>javax.jms</groupId>
+      <artifactId>javax.jms-api</artifactId>
+      <version>2.0.1</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>jms-webapp</finalName>
