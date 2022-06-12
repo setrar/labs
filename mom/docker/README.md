@@ -39,3 +39,4 @@ Pwd: `admin`
 - [ ] [freekode/docker-activemq](https://github.com/freekode/docker-activemq)
 - [ ] [Not able to access admin console for an activemq instance running in a docker container](https://stackoverflow.com/questions/63127321/not-able-to-access-admin-console-for-an-activemq-instance-running-in-a-docker-co)
 - [ ] [Watch command for Git Bash](https://gist.github.com/espaciomore/28e24ce4f91177c0964f4f67bb5c5fda)
+- [ ] [Deploying Active-MQ in a Kubernetes cluster](https://medium.com/zolo-engineering/deploying-active-mq-in-a-kubernetes-cluster-3674f4fd6210)
