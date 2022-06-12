@@ -150,11 +150,9 @@ mvn package
 
 - [ ] :rocket: Let's run the `Publisher` app in a separate :desktop_computer: Terminal
 
-* using `stomp` protocol
-
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher \
-              --define exec.args="stomp://localhost:1883 IONA JAVA"
+              --define exec.args="IONA JAVA"
 ```
 
 # [:back: ](../../../../../../../../README.md) Return to `ch9`
