@@ -50,3 +50,7 @@ if ($msg != null) {
 
 $stomp->unsubscribe('/queue/test', 'binary-sub-test');
 ```
+
+# References
+
+- [ ] [Stomp PHP - Examples](https://github.com/stomp-php/stomp-php-examples)
