@@ -67,7 +67,7 @@ cd examples/amqp/java
 mvn package
 ```
 
-## Binary [examples](https://activemq.apache.org/examples)
+## :biohazard: Binary [examples](https://activemq.apache.org/examples)
 
 - [ ] Run the listener first in a separate Terminal
 
@@ -79,6 +79,12 @@ java -classpath target/amqp-example-0.1-SNAPSHOT.jar example.Listener
 
 ```
 java -classpath target/amqp-example-0.1-SNAPSHOT.jar example.Publisher
+```
+
+## :tada: Start the WebDemo
+
+```
+bin/activemq console xbean:examples/conf/activemq-demo.xml 
 ```
 
 # References
