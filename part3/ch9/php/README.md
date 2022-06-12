@@ -1,6 +1,12 @@
+
+```
+composer require stomp-php/stomp-php
+```
+
+
 ```php
 <?php
-require __DIR__ . '/./vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 /**
  *
  * Copyright (C) 2009 Progress Software, Inc. All rights reserved.
@@ -49,39 +55,6 @@ if ($msg != null) {
 $stomp->unsubscribe('/queue/test', 'binary-sub-test');
 ```
 
-
-
-```
-composer require stomp-php/stomp-php
-```
-
-```php
-<?php
-
-require_once('Stomp.php');
-
-$stomp = new Stomp('tcp://localhost:61613');
-$stomp->connect();
-
-$stomp->send('/queue/test', 'test');
-echo "Sent message with body 'test'\n";
-
-$stomp->subscribe('/queue/test');
-
-$message = $stomp->readFrame();
-
-// do what you want with the message
-if ($message !== null) {
-    echo "Received message with body '$message->body'\n";
-    $stomp->ack($message);
-} else {
-    echo "Failed to receive a message\n";
-}
-
-$stomp->disconnect();
-```
-
 # References
 
-https://github.com/stomp-php/stomp-php/wiki/First-example
 https://github.com/stomp-php/stomp-php-examples/blob/support/version-4/src/connectivity.php
