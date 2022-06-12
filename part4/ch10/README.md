@@ -1,5 +1,6 @@
 # Chapter :one::zero:
 
+<img src="../../images/activemq-topologies" width=1150 > </img>
 
 # References
 
