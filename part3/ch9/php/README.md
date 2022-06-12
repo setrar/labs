@@ -20,32 +20,33 @@ require __DIR__ . '/./vendor/autoload.php';
  */
 
 use Stomp\Client;
-use Stomp\StatefulStomp;
-use Stomp\Transport\Message;
+use Stomp\SimpleStomp;
+use Stomp\Transport\Bytes;
 
 // make a connection
-$stomp = new StatefulStomp(
-    new Client('failover://(tcp://localhost:61614,ssl://localhost:61612,tcp://localhost:61613)?randomize=false')
-);
+$stomp = new SimpleStomp(new Client('tcp://localhost:61613'));
 
 // send a message to the queue
-$stomp->send('/queue/test', new Message('test'));
-echo "Sent message with body 'test'\n";
-// subscribe to the queue
-$stomp->subscribe('/queue/test', null, 'client-individual');
-// receive a message from the queue
+$body = 'test';
+$bytesMessage = new Bytes($body);
+$stomp->send('/queue/test', $bytesMessage);
+echo 'Sending message: ';
+print_r($body . "\n");
+
+$stomp->subscribe('/queue/test', 'binary-sub-test', 'client-individual');
 $msg = $stomp->read();
 
-// do what you want with the message
+// extract
 if ($msg != null) {
-    echo "Received message with body '$msg->body'\n";
+    echo 'Received message: ';
+    print_r($msg->body . "\n");
     // mark the message as received in the queue
     $stomp->ack($msg);
 } else {
     echo "Failed to receive a message\n";
 }
 
-$stomp->unsubscribe();
+$stomp->unsubscribe('/queue/test', 'binary-sub-test');
 ```
 
 
