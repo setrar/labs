@@ -88,18 +88,18 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Broker
 ```
 > Returns
 ```
-INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\KahaDB]
-INFO | KahaDB is version 7
-INFO | PListStore:[C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\tmp_storage] started
-INFO | Apache ActiveMQ 5.16.2 (myBroker, ID:brice-p7sl-riiz-54546-1654989137770-0:1) is starting
-INFO | Listening for connections at: tcp://kubernetes.docker.internal:61616
-INFO | Connector tcp://kubernetes.docker.internal:61616 started
-INFO | Apache ActiveMQ 5.16.2 (myBroker, ID:brice-p7sl-riiz-54546-1654989137770-0:1) started
-INFO | For help or more information please see: http://activemq.apache.org
-WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\KahaDB only has 15088 mb of usable space. - resetting to maximum available disk space: 15088 mb
-WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker only has 15088 mb of usable space. - resetting to maximum available disk space: 15088 mb
+21:53:44,025 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\KahaDB]
+21:53:44,262 |  INFO | KahaDB is version 7
+21:53:45,254 |  INFO | PListStore:[C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\tmp_storage] started
+21:53:45,531 |  INFO | Apache ActiveMQ 5.16.2 (myBroker, ID:brice-p7sl-riiz-49523-1654998825319-0:1) is starting
+21:53:45,668 |  INFO | Listening for connections at: tcp://kubernetes.docker.internal:61616
+21:53:45,669 |  INFO | Connector tcp://kubernetes.docker.internal:61616 started
+21:53:45,670 |  INFO | Apache ActiveMQ 5.16.2 (myBroker, ID:brice-p7sl-riiz-49523-1654998825319-0:1) started
+21:53:45,671 |  INFO | For help or more information please see: http://activemq.apache.org
+21:53:45,679 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker\KahaDB only has 15041 mb of usable space. - resetting to maximum available disk space: 15041 mb
+21:53:45,685 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\NobleProg\Developer\labs\part3\ch7\data\myBroker only has 15041 mb of usable space. - resetting to maximum available disk space: 15041 mb
 
-Press any key to stop the broker 
+Press any key to stop the broker
 ```
 
 - [ ] Observe the File Message Storage :roll_of_paper:
