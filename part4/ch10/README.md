@@ -6,6 +6,8 @@
 
 <img src="../../images/activemq-web-console-network.png" width=1844 > </img>
 
+<img src="../../images/activemq-web-console-connection.png" width=1844 > </img>
+
 # References
 
 :round_pushpin: Features
