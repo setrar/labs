@@ -2,7 +2,7 @@
 
 ## :gear: Install `php` and `composer`
 
-:point_right: [Install](installation)
+:point_right: [Install](installation) - (Already preinstalled, no action needed)
 
 ## :a: Install Stomp
 
