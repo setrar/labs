@@ -17,20 +17,9 @@
 require __DIR__ . 'Stomp/vendor/autoload.php';
 /**
  *
- * Copyright (C) 2009 Progress Software, Inc. All rights reserved.
- * http://fusesource.com
+ * Copyright (C) ActiveMQ In Action.
+ * Adapted for the new PHP Client
  *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
  */
 
 use Stomp\Client;
@@ -40,27 +29,30 @@ use Stomp\Transport\Bytes;
 // make a connection
 $stomp = new SimpleStomp(new Client('tcp://localhost:61613'));
 
-// send a message to the queue
-$body = 'test';
-$bytesMessage = new Bytes($body);
-$stomp->send('/queue/test', $bytesMessage);
-echo 'Sending message: ';
-print_r($body . "\n");
+$stomp->subscribe('/topic/STOCKS.JAVA', 'binary-sub-test', 'client-individual');
 
-$stomp->subscribe('/queue/test', 'binary-sub-test', 'client-individual');
-$msg = $stomp->read();
+$i = 0;
+while ($i++ < 100) {
+   $frame = $stomp->readFrame();
+    // extract
+    if ($frame != null) {
+        echo 'Received message: ';
+        print_r($frame->body . "\n");
 
-// extract
-if ($msg != null) {
-    echo 'Received message: ';
-    print_r($msg->body . "\n");
-    // mark the message as received in the queue
-    $stomp->ack($msg);
-} else {
-    echo "Failed to receive a message\n";
+        $xml = new SimpleXMLElement($frame->body);
+        echo $xml->attributes()->name
+           . "\t" . number_format($xml->price,2)
+           . "\t" . number_format($xml->offer,2)
+           . "\t" . ($xml->up == "true"?"up":"down") . "\n";
+        
+        // mark the message as received in the queue
+        $stomp->ack($frame;
+    } else {
+        echo "Failed to receive a message\n";
+    }
 }
 
-$stomp->unsubscribe('/queue/test', 'binary-sub-test');
+$stomp->unsubscribe('/topic/STOCKS.JAVA', 'binary-sub-test');
 ```
 
 ## :cl: Create the PHP source file called `example.php`
