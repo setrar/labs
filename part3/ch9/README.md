@@ -1,1 +1,1 @@
-# ch:nine:	:heavy_minus_sign: ActiveMQ messaging for other languages
+# Chapter :nine:	:heavy_minus_sign: ActiveMQ messaging for other languages
