@@ -30,7 +30,6 @@ bin/activemq console xbean:examples/conf/activemq-static-network-broker2.xml 
 
   Clustering is a large topic and often means different things to different people. We’ll try to list the various aspects of clustering and how they relate to ActiveMQ
 
-:round_pushpin: Using ActiveMQ
 
 
 
