@@ -7,7 +7,7 @@
 
 ## :a: Broker
 
-:round_pushpin: (as seen in ch:six: ) - Configure ActiveMQ with security plug-ins using XML 
+:round_pushpin: :eyes: (as seen in ch:six: ) - Configure ActiveMQ with security plug-ins using XML 
 
 ```xml
 <broker xmlns="http://activemq.apache.org/schema/core" brokerName="myBroker" dataDirectory="${activemq.base}/data">
@@ -31,7 +31,7 @@
 
 :round_pushpin: Configure ActiveMQ with security plug-ins using Java
 
-- [ ] Create the Java Source Code `Broker.java` in the `broker` folder
+- [ ] In the `broker` folder, create the Java Source Code `Broker.java` 
 
 ```java
 package org.apache.activemq.book.ch7.broker;
