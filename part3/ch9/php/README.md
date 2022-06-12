@@ -14,13 +14,7 @@
 
 ```php
 <?php
-require __DIR__ . 'Stomp/vendor/autoload.php';
-/**
- *
- * Copyright (C) ActiveMQ In Action.
- * Adapted for the new PHP Client
- *
- */
+require __DIR__ . '/Stomp/vendor/autoload.php';
 
 use Stomp\Client;
 use Stomp\SimpleStomp;
@@ -29,29 +23,28 @@ use Stomp\Transport\Bytes;
 // make a connection
 $stomp = new SimpleStomp(new Client('tcp://localhost:61613'));
 
+$stomp->subscribe('/topic/STOCKS.IONA', 'binary-sub-test', 'client-individual');
 $stomp->subscribe('/topic/STOCKS.JAVA', 'binary-sub-test', 'client-individual');
 
 $i = 0;
 while ($i++ < 100) {
-   $frame = $stomp->readFrame();
+   $frame = $stomp->read();
     // extract
     if ($frame != null) {
-        echo 'Received message: ';
-        print_r($frame->body . "\n");
-
         $xml = new SimpleXMLElement($frame->body);
         echo $xml->attributes()->name
-           . "\t" . number_format($xml->price,2)
-           . "\t" . number_format($xml->offer,2)
+           . "\t" . number_format(floatval($xml->price),2)
+           . "\t" . number_format(floatval($xml->offer),2)
            . "\t" . ($xml->up == "true"?"up":"down") . "\n";
-        
+
         // mark the message as received in the queue
-        $stomp->ack($frame;
+        $stomp->ack($frame);
     } else {
         echo "Failed to receive a message\n";
     }
 }
-
+ 
+$stomp->unsubscribe('/topic/STOCKS.IONA', 'binary-sub-test');
 $stomp->unsubscribe('/topic/STOCKS.JAVA', 'binary-sub-test');
 ```
 
@@ -61,7 +54,7 @@ $stomp->unsubscribe('/topic/STOCKS.JAVA', 'binary-sub-test');
 
 ```php
 <?php
-require __DIR__ . 'Stomp/vendor/autoload.php';
+require __DIR__ . '/Stomp/vendor/autoload.php';
 /**
  *
  * Copyright (C) 2009 Progress Software, Inc. All rights reserved.
