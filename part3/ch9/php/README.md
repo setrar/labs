@@ -50,7 +50,3 @@ if ($msg != null) {
 
 $stomp->unsubscribe('/queue/test', 'binary-sub-test');
 ```
-
-# References
-
-https://github.com/stomp-php/stomp-php-examples/blob/support/version-4/src/connectivity.php
