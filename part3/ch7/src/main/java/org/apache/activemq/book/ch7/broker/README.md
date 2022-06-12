@@ -26,7 +26,7 @@
 
 
 ```java
-package org.apache.activemq.book.ch7.xbean;
+package org.apache.activemq.book.ch7.broker;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -84,7 +84,7 @@ One important thing to note in Java listing above is that you should always add 
 :round_pushpin: Start the broker
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.xbean.Broker
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Broker
 ```
 > Returns
 ```
