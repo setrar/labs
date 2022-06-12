@@ -4,121 +4,9 @@
 
 :bulb: in the `ch9` folder
 
-:round_pushpin: Add the `Consumer` Java Source Code
-
-- [ ] use the `Consumer` Class as an example
-
-```java
-package org.apache.activemq.book.ch9;
-
-import javax.jms.Connection;
-import javax.jms.ConnectionFactory;
-import javax.jms.Destination;
-import javax.jms.JMSException;
-import javax.jms.MessageConsumer;
-import javax.jms.Session;
-
-import org.apache.activemq.ActiveMQConnectionFactory;
-
-public class Consumer {
-
-    private static transient ConnectionFactory factory;
-    private transient Connection connection;
-    private transient Session session;
-    
-    public Consumer(String brokerURL) throws JMSException {
-    	factory = new ActiveMQConnectionFactory(brokerURL);
-    	connection = factory.createConnection();
-        connection.start();
-        session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-    }
-    
-    public void close() throws JMSException {
-        if (connection != null) {
-            connection.close();
-        }
-    }    
-    
-    public static void main(String[] args) throws JMSException {
-    	if (args.length == 0) {
-    		System.err.println("Please define connection URI!");
-    		return;
-    	}
-    	
-    	//define connection URI
-    	Consumer consumer = new Consumer(args[0]);
-    	
-    	//extract topics from the rest of arguments
-    	String[] topics = new String[args.length - 1];
-    	System.arraycopy(args, 1, topics, 0, args.length - 1);
-    	for (String stock : topics) {
-    		Destination destination = consumer.getSession().createTopic("STOCKS." + stock);
-    		MessageConsumer messageConsumer = consumer.getSession().createConsumer(destination);
-    		messageConsumer.setMessageListener(new Listener());
-    	}
-    }
-	
-	public Session getSession() {
-		return session;
-	}
-
-}
-```
-
-- [ ] you need the `Listener` Class to retrieve your message (same source code as `ch3`)
-
-```java
-package org.apache.activemq.book.ch9;
-
-import java.text.DecimalFormat;
-
-import javax.jms.MapMessage;
-import javax.jms.Message;
-import javax.jms.MessageListener;
-
-public class Listener implements MessageListener {
-
-	public void onMessage(Message message) {
-		try {
-			MapMessage map = (MapMessage)message;
-			String stock = map.getString("stock");
-			double price = map.getDouble("price");
-			double offer = map.getDouble("offer");
-			boolean up = map.getBoolean("up");
-			DecimalFormat df = new DecimalFormat( "#,###,###,##0.00" );
-			System.out.println(stock + "\t" + df.format(price) + "\t" + df.format(offer) + "\t" + (up?"up":"down"));
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	}
-
-}
-```
-
-- [ ] Let's package the project
-
-```
-mvn package
-```
-
-- [ ] :rocket: Let's run the app using `Maven` executable plugin `exec:<language>` by `defining` the `exec.mainClass` system property (or argument) and `defining` the `exec.args` property to pass the stock tickers.
-
-* using `tcp` protocol
-
-```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Consumer --define exec.args="tcp://localhost:61616 CSCO ORCL"
-```
-
-* using `nio` protocol
-
-```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Consumer --define exec.args="nio://localhost:61616 CSCO ORCL"
-```
-
-
 :round_pushpin: Add the `Publisher` Java Source Code
 
-- [ ] use the `Publisher` Class as an example
+- [ ] use the `Publisher` Class as an example and add the XML data to be sent ion the `createStockMessage` method
 
 ```java
 package org.apache.activemq.book.ch9;
@@ -262,18 +150,12 @@ mvn package
 
 - [ ] :rocket: Let's run the `Publisher` app in a separate :desktop_computer: Terminal
 
-* using `tcp` protocol
+* using `stomp` protocol
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher --define exec.args="tcp://localhost:61616 CSCO ORCL"
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher \
+              --define exec.args="stomp://localhost:1883 IONA JAVA"
 ```
-
-* using `nio` protocol
-
-```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher --define exec.args="nio://localhost:61616 CSCO ORCL"
-```
-
 
 # [:back: ](../../../../../../../../README.md) Return to `ch9`
 
