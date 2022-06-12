@@ -58,7 +58,8 @@ php consumer.php
 - [ ] Run the Maven Exec Java of ch:nine: in a different window Terminal
 
 ```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher --define exec.args="stomp://localhost:1883 IONA JAVA" 
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher \
+              --define exec.args="stomp://localhost:1883 IONA JAVA" 
 ```
 
 # References
