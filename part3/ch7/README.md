@@ -11,7 +11,7 @@ code .
 
 | Source  |  Storage Type | Available |
 |---------|--|----|
-| [xbean](src/main/java/org/apache/activemq/book/ch7/xbean) |  Plain Java | :heavy_check_mark: |
+| [broker](src/main/java/org/apache/activemq/book/ch7/broker) |  Plain Java | :heavy_check_mark: |
 
 # [:back: ](..) Return to Part:three:
 
