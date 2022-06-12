@@ -7,7 +7,7 @@
 
 ## :a: Broker
 
-:round_pushpin: :eyes: (as seen in ch:six: ) - Configure ActiveMQ with security plug-ins using XML 
+:round_pushpin: (as seen in ch:six: ) :eyes:  - Configure ActiveMQ with security plug-ins using XML 
 
 ```xml
 <broker xmlns="http://activemq.apache.org/schema/core" brokerName="myBroker" dataDirectory="${activemq.base}/data">
