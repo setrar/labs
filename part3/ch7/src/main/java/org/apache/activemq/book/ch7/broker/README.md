@@ -141,6 +141,8 @@ mvn exec:java \
 
 ## :b: Factory
 
+:round_pushpin: Let's start ActiveMQ with the same security plug-ins using Java but this time from the XML file :laughing:
+
 - [ ] Create the Java Source Code `Factory.java` in the `broker` folder
 
 ```java
