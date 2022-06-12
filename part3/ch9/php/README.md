@@ -83,3 +83,4 @@ $stomp->disconnect();
 # References
 
 https://github.com/stomp-php/stomp-php/wiki/First-example
+https://github.com/stomp-php/stomp-php-examples/blob/support/version-4/src/connectivity.php
