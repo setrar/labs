@@ -4,12 +4,12 @@
 export LABS=${HOME}/Developer/labs
 ```
 
-| Parts                | Chapters                  | Descriptions                                                         | Available | Complete |
-|----------------------|---------------------------|:---------------------------------------------------------------------|-----------|----------|
-| [Part :three:](.)  |                             | :heavy_plus_sign: Using ActiveMQ to build messaging applications     |           |          |
-|                      | [`ch`:seven: ](ch7)       | :heavy_minus_sign: Creating Java applications with ActiveMQ          |           |          |
-|                      | [`ch`:eight: ](ch8)       | :heavy_minus_sign: Integrating ActiveMQ with application servers     |           |          |
-|                      | [`ch`:nine: ](ch9)        | :heavy_minus_sign: ActiveMQ messaging for other languages            |           |          |
+| Parts                | Chapters            | Descriptions                                                         | Available | Complete |
+|----------------------|---------------------|:---------------------------------------------------------------------|-----------|----------|
+| [Part :three:](.)  |                       | :heavy_plus_sign: Using ActiveMQ to build messaging applications     |           |          |
+|                      | [`ch`:seven: ](ch7) | :heavy_minus_sign: Creating Java applications with ActiveMQ          | :heavy_check_mark: | Not :100:%|
+|                      | [`ch`:eight: ](ch8) | :heavy_minus_sign: Integrating ActiveMQ with application servers     |           |          |
+|                      | [`ch`:nine: ](ch9)  | :heavy_minus_sign: ActiveMQ messaging for other languages            |           |          |
 
 ## Chapter :seven:
 
