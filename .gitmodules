@@ -1,0 +1,3 @@
+[submodule "activemq-in-action"]
+	path = activemq-in-action
+	url = https://github.com/bsnyder/activemq-in-action.git
