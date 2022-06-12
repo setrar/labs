@@ -2,9 +2,9 @@
 
 <img src="../../images/activemq-topologies.png" width=575 > </img>
 
-<img src="../../images/activemq-network-trace.png" width= > </img>
+<img src="../../images/activemq-network-trace.png" width=3140 > </img>
 
-<img src="../../images/activemq-web-console-network.png" width= > </img>
+<img src="../../images/activemq-web-console-network.png" width=1844 > </img>
 
 # References
 
