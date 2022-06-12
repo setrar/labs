@@ -6,6 +6,8 @@
 
 ## :b: Create the PHP source file called `consumer.php`
 
+- [ ] `consumer.php` content
+
 ```php
 <?php
 require __DIR__ . 'Stomp/vendor/autoload.php';
@@ -55,6 +57,12 @@ if ($msg != null) {
 }
 
 $stomp->unsubscribe('/queue/test', 'binary-sub-test');
+```
+
+- [ ] Run the php source code
+
+```
+php consumer.php
 ```
 
 # References
