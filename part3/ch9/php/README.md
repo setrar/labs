@@ -1,4 +1,10 @@
+# Stomp - PHP Example
 
+## :a: Install Stomp
+
+:point_right: [Stomp](Stomp)
+
+## :b: Create the PHP source file called `consumer.php`
 
 ```php
 <?php
