@@ -31,3 +31,4 @@ http://localhost:8088/SampleWebApp/ 
 
 - [ ] [Docker Tomcat Example – Dockerfile for Tomcat, Docker Tomcat Image](https://www.middlewareinventory.com/blog/docker-tomcat-example-dockerfile-sample)
 - [ ] [Getting java.lang.ClassNotFoundException: org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter](https://stackoverflow.com/questions/56684075/getting-java-lang-classnotfoundexception-org-springframework-web-servlet-mvc-an)
+- [ ] [mvc:annotation-driven is not bound](https://stackoverflow.com/questions/6001593/mvcannotation-driven-is-not-bound)
