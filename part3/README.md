@@ -29,4 +29,23 @@ mvn archetype:generate \
 cd ch7
 ```
 
+## Chapter :nine:
+
+- [ ] Create the `ch9` Maven Project using the below command
+
+```
+mvn archetype:generate \
+    -DgroupId=org.apache.activemq.book.ch9 \
+    -DartifactId=ch9 \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DarchetypeVersion=1.4 \
+    -DinteractiveMode=false
+```
+- [ ] Navigate to the `ch9` folder
+
+```
+cd ch9
+```
+
+
 # [:back: ](../README.md) Return to labs
