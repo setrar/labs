@@ -7,7 +7,7 @@
 
 ## :a: Broker
 
-:round_pushpin: Configure ActiveMQ with security plug-ins using XML (as seen in ch:six: )
+:round_pushpin: (as seen in ch:six: ) - Configure ActiveMQ with security plug-ins using XML 
 
 ```xml
 <broker xmlns="http://activemq.apache.org/schema/core" brokerName="myBroker" dataDirectory="${activemq.base}/data">
@@ -31,6 +31,7 @@
 
 :round_pushpin: Configure ActiveMQ with security plug-ins using Java
 
+- [ ] Create the Java Source Code `Broker.java` in the `broker` folder
 
 ```java
 package org.apache.activemq.book.ch7.broker;
@@ -88,7 +89,7 @@ public class Broker {
 
 One important thing to note in Java listing above is that you should always add your plug-ins before connectors; otherwise they won’t be initialized. Also, any connectors added after the broker has been started won’t be properly started either.
 
-:round_pushpin: Start the broker
+- [ ] Start the broker
 
 ```
 mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Broker \
