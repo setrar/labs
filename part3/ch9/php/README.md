@@ -42,7 +42,7 @@ while ($i++ < 100) {
         echo "Failed to receive a message\n";
     }
 }
- 
+
 $stomp->unsubscribe('/topic/STOCKS.IONA', 'binary-sub-test');
 $stomp->unsubscribe('/topic/STOCKS.JAVA', 'binary-sub-test');
 ```
