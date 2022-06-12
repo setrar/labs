@@ -122,7 +122,7 @@ data/myBroker/KahaDB/lock
 
 * Open a new Terminal Window :desktop_computer: 
 * go back to ch:six: project `cd ${LABS}/part2/ch6`
-* run the `Pulisher` app
+* run the `Publisher` app
 
 ```
 mvn exec:java \
