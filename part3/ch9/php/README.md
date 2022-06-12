@@ -53,6 +53,14 @@ $stomp->unsubscribe('/topic/STOCKS.JAVA', 'binary-sub-test');
 php consumer.php
 ```
 
+## :o: Test Stomp Connection
+
+- [ ] Run the Maven Exec Java of ch:nine: in a different window Terminal
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch9.Publisher --define exec.args="stomp://localhost:1883 IONA JAVA" 
+```
+
 # References
 
 - [ ] [Stomp PHP - Examples](https://github.com/stomp-php/stomp-php-examples)
