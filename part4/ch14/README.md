@@ -1,4 +1,4 @@
-# Chapter :one::four: :heavy_minus_sign: Tuning ActiveMQ for performance 
+# Chapter :one::four: :heavy_minus_sign: Administering and monitoring ActiveMQ
 
 
 # References
