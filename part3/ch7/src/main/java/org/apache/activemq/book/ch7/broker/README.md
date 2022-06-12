@@ -141,7 +141,7 @@ mvn exec:java \
 ## :b: Factory
 
 ```java
-package org.apache.activemq.book.ch7.xbean;
+package org.apache.activemq.book.ch7.broker;
 
 import java.net.URI;
 
