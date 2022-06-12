@@ -1,6 +1,6 @@
 # Chapter :one::zero:
 
-<img src="../../images/activemq-topologies.png" width=1150 > </img>
+<img src="../../images/activemq-topologies.png" width=575 > </img>
 
 # References
 
