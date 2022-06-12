@@ -1,5 +1,9 @@
 # Stomp - PHP Example
 
+## :gear: Install `php` and `composer`
+
+:point_right: [Install](installation)
+
 ## :a: Install Stomp
 
 :point_right: [Stomp](Stomp)
