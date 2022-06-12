@@ -3,7 +3,15 @@
 
 ## :gear: Install
 
+
+- [ ] To enable SSL, open  `/c/tools/php81/php.ini` and add the below line
+
+```
+extension=C:\tools\php81\ext\php_openssl.dll
+```
+
 - [ ] On windows, open `C:\Program Files\Git\bin\bash.exe` in the search bar to avoid the `STDIN not a tty` issue
+
 
 - [ ] Run the command to install `Composer`
 ```
