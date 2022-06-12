@@ -21,3 +21,8 @@ Generating autoload files
 1 package you are using is looking for funding.
 Use the `composer fund` command to find out more! 
 ```
+
+
+# References
+
+https://github.com/stomp-php/stomp-php-examples/blob/support/version-4/src/connectivity.php
