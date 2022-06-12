@@ -53,6 +53,10 @@ $stomp->unsubscribe('/topic/STOCKS.JAVA', 'binary-sub-test');
 php consumer.php
 ```
 
+- [ ] Knonw issue
+
+:warning: `PHP Fatal error:  Uncaught Stomp\Exception\ErrorFrameException: Error "No subscription matched." `
+
 ## :o: Test Stomp Connection
 
 - [ ] Run the Maven Exec Java of ch:nine: in a different window Terminal
