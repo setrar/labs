@@ -3,7 +3,7 @@
 
 
 ```
-docker build -t labs/tomcat-8:8.5.79 . 
+docker build --tag labs/tomcat-8:8.5.79 . 
 ```
 
 ```
