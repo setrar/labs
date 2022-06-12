@@ -9,12 +9,12 @@ nano ${ACTIVEMQ_HOME}/conf/activemq.xml
 ```
 
 
-| Parts                | Chapters                  | Descriptions                                                         | Available | Complete |
+| Parts                | Chapters                  | Descriptions                                                         | Available | Completion |
 |----------------------|---------------------------|:---------------------------------------------------------------------|-----------|----------|
-| [Part :two:](.)  |                               | :heavy_plus_sign: Configuring standard ActiveMQ components           |
-|                      | [`ch`:four: ](ch4)        | :heavy_minus_sign: Connecting to ActiveMQ                            | :point_left: | :x: |
-|                      | [`ch`:five: ](ch5)        | :heavy_minus_sign: ActiveMQ message storage                          | :point_left: | :x: |
-|                      | [`ch`:six: ](ch6)         | :heavy_minus_sign: Securing ActiveMQ                                 | :point_left: | not :100:% |
+| [Part :two:](.)  |                               | :heavy_plus_sign: Configuring standard ActiveMQ components           |           |  25% Incr. |
+|                      | [`ch`:four: ](ch4)        | :heavy_minus_sign: Connecting to ActiveMQ                            | :heavy_check_mark: | :green_square::green_square::green_square::red_square: |
+|                      | [`ch`:five: ](ch5)        | :heavy_minus_sign: ActiveMQ message storage                          | :heavy_check_mark: | :green_square::green_square::green_square::red_square: |
+|                      | [`ch`:six: ](ch6)         | :heavy_minus_sign: Securing ActiveMQ                                 | :heavy_check_mark: | :green_square::green_square::green_square::red_square: |
 
 
 ## Chapter :four:
