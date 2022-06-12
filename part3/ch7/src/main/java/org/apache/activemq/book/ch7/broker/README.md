@@ -175,6 +175,6 @@ mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.broker.Factor
               --define log4j.configuration=file:src/main/resources/log4j.xml
 ```
 
--- [ ] Test using the `Publisher` app from ch:six:
+- [ ] Test using the `Publisher` app from ch:six:
 
 # [:back: ](../../../../../../../../../README.md) Return to `ch7`
