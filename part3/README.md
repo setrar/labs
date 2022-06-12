@@ -4,7 +4,7 @@
 export LABS=${HOME}/Developer/labs
 ```
 
-| Parts                | Chapters            | Descriptions                                                         | Available | Completion by 25% increase |
+| Parts                | Chapters            | Descriptions                                                         | Available | 25% incr. Completion  |
 |----------------------|---------------------|:---------------------------------------------------------------------|-----------|----------|
 | [Part :three:](.)  |                       | :heavy_plus_sign: Using ActiveMQ to build messaging applications     |           |          |
 |                      | [`ch`:seven: ](ch7) | :heavy_minus_sign: Creating Java applications with ActiveMQ          | :heavy_check_mark: | :green_square::green_square::green_square::red_square: |
