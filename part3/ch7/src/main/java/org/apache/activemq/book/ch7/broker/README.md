@@ -2,7 +2,8 @@
 
 | using |
 |-------|
-| a [Broker](#a-broker) Class |
+| a [Broker](#a-broker) Class | 
+| a [Factory](#b-factory) Class | 
 
 ## :a: Broker
 
