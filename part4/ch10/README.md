@@ -2,6 +2,10 @@
 
 <img src="../../images/activemq-topologies.png" width=575 > </img>
 
+<img src="../../images/activemq-network-trace.png" width= > </img>
+
+<img src="../../images/activemq-web-console-network.png" width= > </img>
+
 # References
 
 :round_pushpin: Features
