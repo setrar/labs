@@ -6,6 +6,18 @@
         </layout>
     </appender>
 
+    <logger name="org.springframework">
+        <level value="info" />
+    </logger>
+
+    <logger name="org.apache.activemq">
+        <level value="info" />
+    </logger>
+
+    <logger name="org.apache.activemq.book">
+        <level value="debug" />
+    </logger>
+    
     <root>
         <level value="DEBUG"/>
         <appender-ref ref="stdout"/>
