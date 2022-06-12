@@ -1,6 +1,8 @@
-# broker - Starting the broker using Java
+# Starting the broker using Java
 
-:round_pushpin: Configure ActiveMQ with security plug-ins using XML
+## :a: Broker
+
+:round_pushpin: Configure ActiveMQ with security plug-ins using XML (as seen in ch:six: )
 
 ```xml
 <broker xmlns="http://activemq.apache.org/schema/core" brokerName="myBroker" dataDirectory="${activemq.base}/data">
@@ -117,7 +119,7 @@ data/myBroker/KahaDB/db.redo
 data/myBroker/KahaDB/lock
 ```
 
-## :b: Test the Embedded Java Broker
+:round_pushpin: Test the Embedded Java Broker
 
 - [ ] back to ch:six:
 
@@ -130,5 +132,7 @@ mvn exec:java \
    --define exec.mainClass=org.apache.activemq.book.ch6.Publisher \
    --define exec.args="tcp://localhost:61616 CSCO ORCL" 
 ``` 
+
+## :b: Factory
 
 # [:back: ](../../../../../../../../../README.md) Return to `ch7`
