@@ -14,11 +14,11 @@ bin/activemq console xbean:examples/conf/activemq-demo.xml 
 bin/activemq console xbean:examples/conf/activemq-static-network-broker2.xml 
 ``` 
 
-<img src="../../images/activemq-network-trace.png" width=3140 > </img>
+<img src="../../images/activemq-network-trace.png" width=1570 > </img>
 
-<img src="../../images/activemq-web-console-network.png" width=1844 > </img>
+<img src="../../images/activemq-web-console-network.png" width=922 > </img>
 
-<img src="../../images/activemq-web-console-connection.png" width=1844 > </img>
+<img src="../../images/activemq-web-console-connection.png" width=922 > </img>
 
 # References
 
