@@ -3,6 +3,11 @@
 
 ## :gear: Install
 
+- [ ] To install `php` in Powershell
+
+```
+choco install php
+```
 
 - [ ] To enable SSL, open  `/c/tools/php81/php.ini` and add the below line
 
