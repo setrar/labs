@@ -18,15 +18,13 @@ ActiveMQ not running
 ```
 As a temporary resolution use:
 
-```
-ps | grep `cat ${ACTIVEMQ_HOME}/data/activemq.pid` 
-```
-
 
 - [ ] ActiveMQ PID 
 
 ```
+ps | grep `cat ${ACTIVEMQ_HOME}/data/activemq.pid` 
 ```
+
 
 - [ ] Log Files
 
