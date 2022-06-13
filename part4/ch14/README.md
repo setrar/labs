@@ -8,9 +8,6 @@
 ${ACTIVEMQ_HOME}/bin/activemq status
 ```
 
-```
-ps | grep `cat ${ACTIVEMQ_HOME}/data/activemq.pid` 
-```
 
 :warning: `git bash` Terminal has a `ps -o` issue where `status` command is not working
 
@@ -18,6 +15,11 @@ ps | grep `cat ${ACTIVEMQ_HOME}/data/activemq.pid` 
 ps: unknown option -- o
 Try `ps --help' for more information.
 ActiveMQ not running
+```
+As a temporary resolution use:
+
+```
+ps | grep `cat ${ACTIVEMQ_HOME}/data/activemq.pid` 
 ```
 
 
