@@ -285,7 +285,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
        useJournal="true"
        useQuickJournal="true"
        dataSource="#mysql-ds"
-       dataDirectory="activemq-data" />
+       dataDirectory="${activemq.data}" />
     </persistenceFactory>
 ```
 
