@@ -1,9 +1,9 @@
 # Chapter :five: :heavy_minus_sign: ActiveMQ message storage 
 
 
-:gear: Docker
+:gear: [Docker](https://www.docker.com/)
 
-This activity needs :whale2: Docker Desktop, make sure it is running.
+:bulb: This activity needs :whale2: Docker Desktop, make sure it is running.
 
 - [ ] Open [VSC](https://code.visualstudio.com)
 
