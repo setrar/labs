@@ -139,6 +139,12 @@ ntpd -s
 exec su-exec activemq ${HOME_DIRECTORY}/bin/activemq console
 ```
 
+- [ ] Create the image
+
+```
+docker image build --tag lab/hawtio:5.16.2 .
+```
+
 
 - [ ] ActiveMQ Status
 
