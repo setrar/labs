@@ -1,11 +1,5 @@
 # Chapter :eight:	:heavy_minus_sign: Integrating ActiveMQ with application servers
 
-- [ ] Open [VSC](https://code.visualstudio.com)
-
-```
-code .
-```
-
 - [ ] coding activity
 
 
