@@ -11,7 +11,7 @@ code .
 
 | Source  |  Applicatition Server | Available |
 |---------|--|----|
-| [broker](src/main/java/org/apache/activemq/book/ch7/broker) |  Tomcat | :heavy_check_mark: |
+| [jms-webapp-local](jms-webapp-local) |  Tomcat | :heavy_check_mark: |
 
 # [:back: ](..) Return to Part:three:
 
