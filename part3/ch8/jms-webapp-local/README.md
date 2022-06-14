@@ -59,6 +59,7 @@ docker container rm -f some-tomcat
 docker image rm labs/tomcat-8:8.5.79
 ```
 
+# [:back: ](..) Return to ch:eight:
 
 # References
 
