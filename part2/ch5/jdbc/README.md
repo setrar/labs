@@ -236,7 +236,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 
 <img src="https://i.stack.imgur.com/4Fch0.jpg" width=847 height=589 ></img>
 
-- [ ] :abacus: Check the messages into the `ACTIVEMQ_MSGS` table iin the MySQL database
+- [ ] :abacus: Check the messages into the `ACTIVEMQ_MSGS` table in the MySQL database
 
 # [:back: ](../README.md) Return to `ch5`
 
