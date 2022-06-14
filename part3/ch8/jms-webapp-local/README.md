@@ -9,6 +9,12 @@
 cd ${LABS}/part3/ch8/jms-webapp-local
 ```
 
+- [ ] Open [VSC](https://code.visualstudio.com)
+
+```
+code .
+```
+
 - [ ] Generate the war file 
 
 ```
