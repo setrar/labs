@@ -77,11 +77,15 @@ exit
 
 In the `ch5` directory
 
+- [ ] Start the broker using the below command line
+
 ```
 ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 ```
 
 - [ ] The configuration file
+
+* provided for JDBC tag explanations
 
 ```xml
 <beans
@@ -222,9 +226,14 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 </beans> 
 ```
 
+<img src="https://i.stack.imgur.com/4Fch0.jpg" width=847 height=589 ></img>
+
+
 # [:back: ](../README.md) Return to `ch5`
 
 - [ ] References
+
+- [ ] [How to Store Message ActiveMQ into SQL Server](https://stackoverflow.com/questions/69516361/how-to-store-message-activemq-into-sql-server)
 
 https://activemq.apache.org/leveldb-store.html
 
