@@ -23,7 +23,7 @@ mvn package
 
 ## :b: Create the application server running in Docker
 
-- [ ] Generate the image using the preconfigured `Dockerfile`
+- [ ] Generate the image using the preconfigured [`Dockerfile`](Dockerfile)
 
 
 ```
