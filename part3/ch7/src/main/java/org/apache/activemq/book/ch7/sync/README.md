@@ -108,10 +108,9 @@ public class Server implements MessageListener {
 }
 ```
 
-```
-mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.sync.Server 
-```
+:round_pushpin: Add the `Client` Java Source Code
 
+- [ ] use the `Client` Class as an example
 
 
 ```java
@@ -203,7 +202,21 @@ public class Client implements MessageListener {
 }
 ```
 
-:round_pushpin: Start up the client for the request/reply example
+
+- [ ] Let's package the project
+
+```
+mvn package
+```
+
+- [ ] :rocket: Let's run the `Server` app in a separate :desktop_computer: Terminal
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.sync.Server 
+```
+
+
+- [ ] :rocket:  Start up the client for the request/reply example
 
 
 ```
@@ -232,3 +245,7 @@ Received response for: Response to 'REQUEST-8'
 Received response for: Response to 'REQUEST-9'
 Received response for: Response to 'REQUEST-10' 
 ```
+
+# [:back: ](../../../../../../../../README.md) Return to `ch7`
+
+
