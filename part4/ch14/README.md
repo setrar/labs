@@ -13,7 +13,7 @@ wget https://oss.sonatype.org/content/repositories/public/io/hawt/hawtio-app/1.5
 java -jar hawtio-app-1.5.11.jar 
 ```
 
-<img src="https://github.com/valiha-com/labs/blob/main/images/hawtio-activemq.png" width=1218  > </img>
+<img src="https://github.com/valiha-com/labs/blob/main/images/hawtio-activemq.png" width=304  > </img>
 
 
 - [ ] ActiveMQ Status
