@@ -1,6 +1,10 @@
 # Sync
 
 
+## :a: Create the Server Code
+
+
+
 ```java
 package org.apache.activemq.book.ch7.sync;
 
@@ -101,6 +105,11 @@ public class Server implements MessageListener {
 
 }
 ```
+
+```
+mvn exec:java --define exec.mainClass=org.apache.activemq.book.ch7.sync.Server 
+```
+
 
 
 ```java
