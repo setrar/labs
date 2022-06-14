@@ -1,6 +1,14 @@
 # :cat2: Tomcat
 
 
+## :a: Create a `war` file 
+
+- [ ] Open a terminal window and position yourself into the `jms-web-local` working directory
+
+```
+cd ${LABS}/part3/ch8/jms-web-local
+```
+
 
 ```
 docker build --tag labs/tomcat-8:8.5.79 . 
