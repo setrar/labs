@@ -50,6 +50,8 @@ http://localhost:8088/SampleWebApp/ 
 
 :warning: When pressing `send` a `Java` stacktrace will appear
 
+As an exercice, the XML configuration file can be tuned to make the broker working properly
+
 
 ## :x: Clear your image from the repositories
 
