@@ -29,6 +29,20 @@ mvn archetype:generate \
 cd ch7
 ```
 
+## Chapter :eight:
+
+- [ ] `ch8` Maven Project
+
+:bulb: The `pom.xml` file is already provided for this lab activity
+
+- [ ] Navigate to the `ch8` folder
+
+```
+cd ch8
+```
+
+
+
 ## Chapter :nine:
 
 - [ ] Create the `ch9` Maven Project using the below command
