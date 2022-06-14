@@ -1,9 +1,19 @@
 # Chapter :five: :heavy_minus_sign: ActiveMQ message storage 
 
 
+- [ ] Open [VSC](https://code.visualstudio.com)
+
+```
+code .
+```
+
+- [ ] Add the `MySQL Connector/J » 8.0.29` Library to the project management file `pom.xml`
+
 ```
 cp ${HOME}/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar ${ACTIVEMQ_HOME}/lib
 ```
+
+
 
 | Source  |  Storage Type | Available |
 |---------|--|----|
