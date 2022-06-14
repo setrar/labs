@@ -226,6 +226,8 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 </beans> 
 ```
 
+## :parking: To persist into the database, use the ActiveMQ Web Console as follows
+
 <img src="https://i.stack.imgur.com/4Fch0.jpg" width=847 height=589 ></img>
 
 
