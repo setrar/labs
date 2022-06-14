@@ -15,13 +15,13 @@ FROM anapsix/alpine-java:jre8
 MAINTAINER Ivan Krizsan, https://github.com/krizsan
 
 # Software version number.
-ENV VERSION_NUMBER=5.13.2 \
+ENV VERSION_NUMBER=5.16.2 \
 # Archive name prefix, unpacked archive directory prefix and final directory name.
 FINAL_DIRECTORY_NAME=apache-activemq
 # Software home directory.
 ENV HOME_DIRECTORY=/opt/${FINAL_DIRECTORY_NAME} \
 # Product download URL.
-DOWNLOAD_URL=http://apache.mirrors.spacedump.net/activemq/${VERSION_NUMBER}/apache-activemq-${VERSION_NUMBER}-bin.tar.gz \
+DOWNLOAD_URL=http://archive.apache.org/dist/activemq/${VERSION_NUMBER}/apache-activemq-${VERSION_NUMBER}-bin.tar.gz \
 # Name of user that product will be run by.
 RUN_AS_USER=activemq \
 # Name of start-script that will be executed when a new container is started.
@@ -31,7 +31,7 @@ HAWTIO_DOWNLOAD_URL=https://oss.sonatype.org/content/repositories/public/io/hawt
 # Set this environment variable to true to set timezone on container start.
 SET_CONTAINER_TIMEZONE=true \
 # Default container timezone.
-CONTAINER_TIMEZONE=Europe/Stockholm
+CONTAINER_TIMEZONE=America/New_York
 # Configuration directory.
 ENV CONFIGURATION_DIRECTORY=${HOME_DIRECTORY}/conf \
 # Logs directory. Does not exist in the default ActiveMQ binary distribution.
