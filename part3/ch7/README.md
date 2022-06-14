@@ -13,6 +13,7 @@ code .
 |---------|--|----|
 | [broker](src/main/java/org/apache/activemq/book/ch7/broker) |  Plain Java | :heavy_check_mark: |
 | [spring](src/main/java/org/apache/activemq/book/ch7/spring) |  Spring Framework | :x: Any Interest :grey_question: |
+| [sync](src/main/java/org/apache/activemq/book/ch7/sync) |  CorrelationID | :heavy_check_mark: |
 
 # [:back: ](..) Return to Part:three:
 
