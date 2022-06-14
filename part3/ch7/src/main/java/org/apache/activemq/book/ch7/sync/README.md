@@ -1,9 +1,11 @@
 # Sync
 
 
-## :a: Create the Server Code
+:bulb: in the `sync` folder
 
+:round_pushpin: Add the `Server` Java Source Code
 
+- [ ] use the `Server` Class as an example
 
 ```java
 package org.apache.activemq.book.ch7.sync;
