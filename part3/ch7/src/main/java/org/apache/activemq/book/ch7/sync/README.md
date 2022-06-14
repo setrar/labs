@@ -190,6 +190,7 @@ public class Client implements MessageListener {
 	}
 
 }
+```
 
 :round_pushpin: Start up the client for the request/reply example
 
