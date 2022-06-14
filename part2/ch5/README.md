@@ -9,6 +9,8 @@ code .
 
 - [ ] Add the `MySQL Connector/J » 8.0.29` Library to the project management file `pom.xml`
 
+- [ ] Add the `mysql` database jar file to the broker's library folder by using the below copy command.
+
 ```
 cp ${HOME}/.m2/repository/mysql/mysql-connector-java/8.0.29/mysql-connector-java-8.0.29.jar ${ACTIVEMQ_HOME}/lib
 ```
