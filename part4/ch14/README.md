@@ -49,6 +49,7 @@ ENV HAWTIO_WEBAPP_HANDLER_STRING='<ref bean="rewriteHandler"/> \
 # Install NTPD for time synchronization and su-exec (instead of gosu).
 RUN apk --no-cache update && \
     apk --no-cache upgrade && \
+    apk --no-cache add --update openssl && \
     apk --no-cache add tzdata openntpd su-exec && \
 # Create the /opt directory in which software in the container is installed.
     mkdir -p /opt && \
