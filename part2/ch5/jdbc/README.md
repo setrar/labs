@@ -228,7 +228,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 
 ## :parking: To persist into the database
 
-* use the ActiveMQ Web Console to create messages.
+- [ ] use the ActiveMQ Web Console to create messages.
 
 :bulb: Do not forget to check the `Persistent Delivery` option
 
@@ -236,6 +236,7 @@ ${ACTIVEMQ_HOME}/bin/activemq console xbean:jdbc/conf/activemq.xml
 
 <img src="https://i.stack.imgur.com/4Fch0.jpg" width=847 height=589 ></img>
 
+- [ ] :abacus: Check the messages into the `ACTIVEMQ_MSGS` table iin the MySQL database
 
 # [:back: ](../README.md) Return to `ch5`
 
