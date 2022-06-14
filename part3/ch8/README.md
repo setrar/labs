@@ -9,9 +9,9 @@ code .
 - [ ] coding activity
 
 
-| Source  |  Applicatition Server | Available |
+| Source  |  Application Server | Available |
 |---------|--|----|
-| [jms-webapp-local](jms-webapp-local) |  Tomcat | :heavy_check_mark: |
+| [jms-webapp-local](jms-webapp-local) |  [Tomcat](https://tomcat.apache.org/) | :heavy_check_mark: |
 
 # [:back: ](..) Return to Part:three:
 
