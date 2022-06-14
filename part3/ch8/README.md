@@ -1,5 +1,9 @@
 # Chapter :eight:	:heavy_minus_sign: Integrating ActiveMQ with application servers
 
+:gear: [Docker](https://www.docker.com/)
+
+:bulb: This activity needs :whale2: Docker Desktop, make sure it is running.
+
 - [ ] coding activity
 
 
