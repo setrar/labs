@@ -46,7 +46,7 @@ docker container run --name some-tomcat --publish 8088:8080 --detach labs/tomcat
 
 - [ ] Visit the `SampleWebApp` App Server
 
-http://localhost:8088/SampleWebApp/ 
+http://localhost:8088/jms-webapp/send.html
 
 :warning: When pressing `send` a `Java` stacktrace will appear
 
