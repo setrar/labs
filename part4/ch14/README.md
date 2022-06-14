@@ -38,4 +38,6 @@ tail -f ${ACTIVEMQ_HOME}/data/activemq.log 
 
 # References
 
-- [ ] [JMX](https://activemq.apache.org/jmx)
+- [ ] [Using JMX to monitor Apache ActiveMQ](https://activemq.apache.org/jmx)
+- [ ] [How to connect to AMQ JMX using Jconsole remotely](https://access.redhat.com/solutions/252303)
+- [ ] [Format 'ps' command output without whitespace](https://unix.stackexchange.com/questions/153157/format-ps-command-output-without-whitespace)
