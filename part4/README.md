@@ -15,7 +15,7 @@ export LABS=${HOME}/Developer/labs
 
 # [:back: ](../README.md) Return to labs
 
-- References
+# References
 
 - [ ] [Exploring ActiveMQ Artemis](https://www.openlogic.com/blog/exploring-activemq-artemis)
 - [ ] [[EXTERNAL] Re: ActiveMQ 5.x end of life info](https://www.mail-archive.com/users@activemq.apache.org/msg45795.html)

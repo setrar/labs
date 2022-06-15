@@ -9,33 +9,33 @@
 
     <broker xmlns="http://activemq.apache.org/schema/core" brokerName="amq-broker" dataDirectory="${activemq.base}/data">
 
-    <persistenceAdapter> 
-      <kahaDB directory="${activemq.base}/data" journalMaxFileLength="32mb"/> 
-    </persistenceAdapter> 
-      
+        <persistenceAdapter> 
+        <kahaDB directory="${activemq.base}/data" journalMaxFileLength="32mb"/> 
+        </persistenceAdapter> 
+        
         <destinationPolicy> 
             <policyMap> 
-               <policyEntries> 
-                   <policyEntry queue=">" optimizedDispatch="true"/> 
+                <policyEntries> 
+                    <policyEntry queue=">" optimizedDispatch="true"/> 
                 </policyEntries> 
             </policyMap> 
-      </destinationPolicy> 
-      
-      <systemUsage> 
-       <systemUsage> 
-        <memoryUsage> 
-           <memoryUsage limit="512 mb"/> 
-        </memoryUsage> 
-        <storeUsage> 
-           <storeUsage limit="10 gb" name="foo"/> 
-        </storeUsage> 
-        <tempUsage> 
-           <tempUsage limit="1 gb"/> 
-        </tempUsage> 
-       </systemUsage> 
-      </systemUsage> 
+        </destinationPolicy> 
+        
+        <systemUsage> 
+            <systemUsage> 
+                <memoryUsage> 
+                    <memoryUsage limit="512 mb"/> 
+                </memoryUsage> 
+                <storeUsage> 
+                    <storeUsage limit="10 gb" name="foo"/> 
+                </storeUsage> 
+                <tempUsage> 
+                    <tempUsage limit="1 gb"/> 
+                </tempUsage> 
+            </systemUsage> 
+        </systemUsage> 
     
-      <!-- The transport connectors ActiveMQ will listen to -->
+        <!-- The transport connectors ActiveMQ will listen to -->
         <transportConnectors>
             <transportConnector name="openwire" uri="nio://localhost:61616" />         
         </transportConnectors>
