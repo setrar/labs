@@ -14,3 +14,7 @@ export LABS=${HOME}/Developer/labs
 |                      | [`ch`:one::four: ](ch14)   | :heavy_minus_sign: Administering and monitoring ActiveMQ | :heavy_check_mark: |  :green_square::red_square::red_square::red_square:        |
 
 # [:back: ](../README.md) Return to labs
+
+- References
+
+- [ ] [Exploring ActiveMQ Artemis](https://www.openlogic.com/blog/exploring-activemq-artemis)
