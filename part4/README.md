@@ -20,3 +20,11 @@ export LABS=${HOME}/Developer/labs
 - [ ] [Exploring ActiveMQ Artemis](https://www.openlogic.com/blog/exploring-activemq-artemis)
 - [ ] [[EXTERNAL] Re: ActiveMQ 5.x end of life info](https://www.mail-archive.com/users@activemq.apache.org/msg45795.html)
 - [ ] [Which embedded messaging system -> ActiveMQ or HornetQ](https://stackoverflow.com/questions/4559883/which-embedded-messaging-system-activemq-or-hornetq)
+- [ ] [](https://activemq.apache.org/performance-tuning)
+
+| Consumer Type | Default Value |
+|---------------|--------------:|
+| queue         | 1000 |
+| queue browser	| 500 |
+| topic | 32767 |
+| durable topic	| 1000 |
